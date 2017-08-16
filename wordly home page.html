@@ -38,16 +38,21 @@
 	position: relative;
 	top: 30%;
 }
-.bottom {
+.credits {
 	position: absolute;
-	top: 660px;
+	top: 620px;
 }
-/*.icon {
-	background: url("images/Icon.svg") no-repeat top left;
-}*/
-/*.icon-accessibility{ 
-	background-position: 0 0; width: 10px; height: 10px;
-}*/
+#bottom {
+	position: relative;
+	top: 310px;
+}
+#scrollDown {
+	height: 50px;
+	width: 50px;
+}
+#scrollDown:hover {
+	cursor: pointer;
+}
 
   #section1 {padding-top:0px;height:700px; background-image: url("images/clouds.gif"); background-size: cover;}
   #section2 {padding-top:50px;height:700px;color: #fff; background-color: #ADACB5;}
@@ -92,10 +97,16 @@
 <div id="section1" class="container-fluid center century">
 	<div class= "c">
 		<h1><b><font size="50" color="#ffffff"> <img src= "images/worldly.png" </font></b></h1>
-		<h2><font color="#ffffff"> The essential travel guide- made for <u><i>women</i></u>, by <u><i>women</i></u>.</font></h2>
+		<h2><font color="#ffffff"> The essential travel guide- made for <u><i>women</i></u> (and men I guess), by <u><i>women</i></u>.</font></h2>
+		<!-- <h2>Worldly wisdom of respectful customs and traditions.</h2> -->
 	</div>  
-	<div id= "header">
-		<p id="header-content" class= "bottom" color= #8c8c8c ><font size="0.5">IMG Credit: http://weheartit.com/entry/238827160<font></p>
+	<div>
+
+		<div class="center" id="bottom">
+		  <img id= "scrollDown" src="images/circleButton.svg"></img>
+		</div>
+
+		<p class= "credits" color= #8c8c8c ><font size="0.5">IMG Credit: http://weheartit.com/entry/238827160<font></p>
 	</div>
 </div>
 
@@ -116,5 +127,6 @@
   <p>WHERE OUR CONTACT INFO IS SUPPOSED TO GO</p>
 </div>
 
+<script src="homeJava.js"></script>
 </body>
 </html>
