@@ -1,0 +1,146 @@
+ body {
+      position: relative; 
+  }
+  .country {
+    width:50%; 
+    height:100%; 
+    float: left;  
+    background-size: cover;
+    display: inline-flex;
+
+  }
+  #chinaCSS{
+    background-image: url('chinese_culture.JPG'); 
+  }
+   #thaiCSS{
+    background-image: url('photo44_copy.JPG'); 
+  }
+   #japanCSS{
+    background-image: url('japan.JPG'); 
+  }
+  #indiaCSS{
+    background-image: url('india.JPG'); 
+  }
+   #sKoreaCSS{
+    background-image: url('sKorea.JPG'); 
+  }
+   #franceCSS{
+    background-image: url('france2.JPG'); 
+  }
+   #englandCSS{
+    background-image: url('england2.JPG'); 
+  }
+   #italyCSS{
+    background-image: url('italy2.JPG'); 
+  }
+   #germanyCSS{
+    background-image: url('germany.JPG'); 
+  }
+   #greeceCSS{
+    background-image: url('greece1.JPG'); 
+  }
+  #usaCSS{
+    background-image: url('usa.JPG'); 
+  }
+   #canadaCSS{
+    background-image: url('canada.JPG'); 
+  }
+   #mexicoCSS{
+    background-image: url('mexico.JPG'); 
+  }
+  
+
+
+
+  .circle {
+    text-align:center; 
+    display: inline-flex;
+    position: relative;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    background: white;
+    border-radius: 50%;
+    opacity: .5;
+  }
+
+  .names{
+    margin: auto;
+  }
+
+  .commentSection {
+    display: none;
+
+  }
+
+  .right {
+    width:50%; 
+    height:100%; 
+    float: right; 
+    background-color:grey;
+  }
+  
+  h1 {
+    color: black;
+  }
+  span{
+    color: black;
+  }
+  #top {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+              font-weight: 100;
+    padding-top:20%;
+    height:650px;
+    color: #fff; 
+    background-color: lightgrey; 
+    text-align: center;
+  }
+  #china {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+              font-weight: 100;
+    padding-top:50px;
+    height:650px;
+    color: #fff; 
+    background-color: lightgrey;
+  }
+
+  #thailand {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+              font-weight: 100;
+    padding-top:50px;
+    height:650px;
+    color: #fff; 
+    background-color:lightgrey;
+  }
+
+   #japan {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+              font-weight: 100;
+    padding-top:50px;
+    height:650px;
+    color: #fff; 
+    background-color: lightgrey;
+  }
+
+  #india{
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+              font-weight: 100;
+     padding-top:50px;
+    height:650px;
+    color: #fff; 
+    background-color:lightgrey;
+  }
+
+  #sKorea{
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+              font-weight: 100;
+     padding-top:50px;
+    height:650px;
+    color: #fff; 
+    background-color:lightgrey;
+  }
+
+  #container{
+    height:100%;
+    width:100%;
+  }
