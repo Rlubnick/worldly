@@ -115,12 +115,16 @@
     text-align:center; 
     display: inline-flex;
     position: relative;
-    margin: auto;
-    width: 300px;
-    height: 300px;
+    margin: 25%;
+    width: 45%;
+    height: auto;
     background: white;
     border-radius: 50%;
     opacity: .5;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    padding-left: 0%;
+    padding-right: 0%
   }
 
   .names{
@@ -149,7 +153,8 @@
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
               font-weight: 100;
     padding-top:20%;
-    height:650px;
+ 
+    height:700px;
     color: #fff; 
     background-color: lightgrey; 
     text-align: center;
