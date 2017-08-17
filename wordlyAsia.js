@@ -93,3 +93,23 @@ function sKoreaStart(){
 
 	  	document.getElementById("sKoreaComment").style.display = 'inline';
 	  }
+
+
+//HONG KONG
+
+function hk(){
+	 	    document.getElementById("hkInfo").style.display = 'inline'; 
+	      	document.getElementById("hkComment").style.display = 'none';
+
+	 }
+	 function hkInfoClick(){
+	 	console.log(document.getElementById("hkInfo"))
+	    document.getElementById("hkInfo").style.display = 'inline'; 
+	      	document.getElementById("hkComment").style.display = 'none';
+
+	  }
+	  function hkCommentClick(){
+	  	    document.getElementById("hkInfo").style.display = 'none'; 
+
+	  	document.getElementById("hkComment").style.display = 'inline';
+	  }
