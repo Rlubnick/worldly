@@ -1,54 +1,136 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!DOCTYPE html>
+<html>
 <head>
-<title>Intro to JavaScript amMap</title>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link href="images/style.css" rel="stylesheet" type="text/css">
+  <title>Worldly</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  body {
+      position: relative; 
+  }
+  .center {
+  	text-align: center;
+  }
+  .transparent{
+    border-width: 0px;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    background-color: rgba(0,0,0,0.0);
+    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
+    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+}
+.century {
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+		font-weight: 100;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	line-height: 26.4px;
+}
+.c {
+	height: auto;
+	width: auto;
+	position: relative;
+	top: 30%;
+}
+.credits {
+	position: absolute;
+	top: 620px;
+}
+#bottom {
+	position: relative;
+	top: 310px;
+}
+#scrollDown {
+	height: 50px;
+	width: 50px;
+}
+#scrollDown:hover {
+	cursor: pointer;
+}
+
+  #section1 {padding-top:0px;height:700px; background-image: url("images/clouds.gif"); background-size: cover;}
+  #section2 {padding-top:50px;height:700px;color: #fff; background-color: #ADACB5;}
+  #section3 {padding-top:50px;height:700px;color: #fff; background-image: url("images/home_bg.JPG"); background-size: cover;}
+  #section4 {padding-top:50px;height:700px;color: #fff; background-color: #B0D7FF;}
+  #section5 {padding-top:50px;height:700px;color: #fff; background-image: url("images/planeUp.JPG"); background-size: cover;}
+  </style>
+
 </head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
-<body bgcolor="#FFFFFF">
-    <p><img src="images/logo.png" /></p>
-    <hr>
-    <h2>A very short tutorial for those who don't like reading</h2>
-	<ul>
-	    <li>Copy <b>ammap</b> folder to your working dir.</li>
-	    <li>Go to <i>samples</i> folder and open one of HTML files in your browser - you should see a map.</li>
-	    <li>View source of the page or open this HTML file with text editor.</li>
-	    <li>Try to make some changes.</li>
-	    <li>Copy/Paste everything to your html/php/asp/etc file and fix paths to scripts</li>
-	    <li>Open your file in browser - you should see the same map.</li>
-	    <li>Now it's time to read all the tutorials and check the examples :)</li>
-	</ul>
-    <hr>
- 	<h2>Documentation</h2>
-	<ul><li><a href="http://docs.amcharts.com/3/javascriptmaps/">JavaScript reference</a></li></ul>
+<nav class="navbar navbar-inverse navbar-fixed-top transparent">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>  
+          <span class="icon-bar"></span>  
+          <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Worldly</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right" text-align= "right">
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><!-- <i class="icon"></i> -->Sections</a>
+            <ul class="dropdown-menu">
+              <li><a href="#section1">Home</a></li>
+	          <li><a href="#section2">Regions</a></li>
+	          <li><a href="#section3">Our Purpose</a></li>
+	          <li><a href="#section4">The Team</a></li>
+	          <li><a href="#section5">Contact</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
 
-    <h2>Tutorials</h2>
-	<ul>
-		<li>For the latest list of tutorials, <a href="http://www.amcharts.com/tutorials/">visit tutorials page</a>.</li>
-	</ul>
+<div id="section1" class="container-fluid center century">
+	<div class= "c">
+		<h1><b><font size="50" color="#ffffff"> <img src= "images/worldly.png" </font></b></h1>
+		<h2><font color="#ffffff"> The essential travel guide- made for <u><i>women</i></u> (and men I guess), by <u><i>women</i></u>.</font></h2>
+		<!-- <h2>Worldly wisdom of respectful customs and traditions.</h2> -->
+	</div>  
+	<div>
 
-    <h2>Pixel map generator</h2>
-	<ul>
-		<li>Want to put together the config for your first map faster? Try our <a href="http://pixelmap.amcharts.com/">Pixel Map Generator</a> - you can do a lot of job by editing maps visually!</li>
-	</ul>
+		<div class="center" id="bottom">
+		  <img id= "scrollDown" src="images/circleButton.svg"></img>
+		</div>
 
-	<hr>
-    <h2>Tips</h2>
-	<ul>
-		<li>We have a lot of <a href="http://www.amcharts.com/tips/">quick demos</a> created when answering to our users questions.</li>
-	</ul>
+		<p class= "credits" color= #8c8c8c ><font size="0.5">IMG Credit: http://weheartit.com/entry/238827160<font></p>
+	</div>
+</div>
 
+<div id="section2" class="container-fluid center century">
+  <h1> Choose a Region...</h1>
+  <p>WHERE MAP IS SUPPOSED TO GO</p>
+</div>
+<div id="section3" class="container-fluid center century">
+  <h1 class="center"><b> O U R <br>  M I S S I O N </b></h1>
+  <p>WHERE MISSION STATEMENT IS SUPPOSED TO GO</p>
+</div>
+<div id="section4" class="container-fluid center century">
+  <h1><b> Meet the Team! </b></h1>
+  <p>WHERE ABOUT US STUFF IS SUPPOSED TO GO</p>
+</div>
+<div id="section5" class="container-fluid center century">
+  <h1><b> Get in touch with us! </b></h1>
+ <div style=""><div><img style="border-radius: 50%; width:55px; text-align: center" src= "placeholder_pic.jpg" > <h1>Rebekah Lubnick</h1><div>email:_____ linkedin:_______ facebook:________</div></div>
+ <div><img style="border-radius: 50%; width:55px" src= "placeholder_pic.jpg" > <h1>Abigail Cumberbatch</h1><div>email:_____ linkedin:_______ </div></div>
+ <div><img style="border-radius: 50%; width:55px" src= "placeholder_pic.jpg" > <h1>Christine Liu </h1><div>email:_____ linkedin:_______ facebook:________</div> </div>
+ <div><img style="border-radius: 50%; width:55px" src= "placeholder_pic.jpg" > <h1>Angela Fu</h1><div>email:_____ linkedin:_______ facebook:________</div></div>
+</div>
+</div>
 
-	<hr>
-
-	<h2>Examples</h2>
-	We think that the best way to start learning amCharts (and any other similar software) is to study examples. Check samples folder - there are plenty of them! In case you prefer working in jsFiddle, visit our web site - all samples have a link to jsFiddle where you can edit and view the result instantly.
-
-    <h2>Support</h2>
-	In case you have a question, go to our <a href="http://www.amcharts.com/support/">support area</a>. You'll find a lot of information there, and if you won't - you can always ask.
-	<hr>
-	<h2>Good luck!</h2>
-	<hr>
+<script src="homeJava.js"></script>
 </body>
 </html>
