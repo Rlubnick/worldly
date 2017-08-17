@@ -8,7 +8,136 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" media="all" href="../jquery-jvectormap.css"/>
+  <script src="assets/jquery-1.8.2.js"></script>
+  <script src="./jquery-jvectormap.js"></script>
+  <script src="./lib/jquery-mousewheel.js"></script>
+
+  <script src="./src/jvectormap.js"></script>
+
+  <script src="./src/abstract-element.js"></script>
+  <script src="./src/abstract-canvas-element.js"></script>
+  <script src="./src/abstract-shape-element.js"></script>
+
+  <script src="./src/svg-element.js"></script>
+  <script src="./src/svg-group-element.js"></script>
+  <script src="./src/svg-canvas-element.js"></script>
+  <script src="./src/svg-shape-element.js"></script>
+  <script src="./src/svg-path-element.js"></script>
+  <script src="./src/svg-circle-element.js"></script>
+  <script src="./src/svg-image-element.js"></script>
+  <script src="./src/svg-text-element.js"></script>
+
+  <script src="./src/vml-element.js"></script>
+  <script src="./src/vml-group-element.js"></script>
+  <script src="./src/vml-canvas-element.js"></script>
+  <script src="./src/vml-shape-element.js"></script>
+  <script src="./src/vml-path-element.js"></script>
+  <script src="./src/vml-circle-element.js"></script>
+  <script src="./src/vml-image-element.js"></script>
+
+  <script src="./src/map-object.js"></script>
+  <script src="./src/region.js"></script>
+  <script src="./src/marker.js"></script>
+
+  <script src="./src/vector-canvas.js"></script>
+  <script src="./src/simple-scale.js"></script>
+  <script src="./src/ordinal-scale.js"></script>
+  <script src="./src/numeric-scale.js"></script>
+  <script src="./src/color-scale.js"></script>
+  <script src="./src/legend.js"></script>
+  <script src="./src/data-series.js"></script>
+  <script src="./src/proj.js"></script>
+  <script src="./src/map.js"></script>
+
+    <script src="assets/jquery-jvectormap-continents-mill.js"></script>
+
+
+  <script>
+    jQuery.noConflict();
+    jQuery(function(){
+      var $ = jQuery;
+
+      $('#map2').vectorMap({
+        map: 'continents_mill',
+        zoomOnScroll: false,
+        regionsSelectable: false,
+        regionsSelectableOne:false,
+        backgroundColor: ['#A9A9A9'],
+        regionStyle:{
+          hover:{
+            "fill-opacity":0.9,
+            cursor: 'default'
+          },
+        },
+        markerStyle: {
+          initial: {
+            fill: '#F8E23B',
+            stroke: '#383f47'
+          }
+        },
+        markers: [
+          {latLng: [34.0479, 100.6197], name: 'Asia', weburl : "file:///C:/Users/GWC/Desktop/fake.html"},
+          {latLng: [29.2985, 42.5510], name: 'Middle East'},
+          {latLng: [10.7832, 20.5085], name: 'Africa'},
+          {latLng: [-25.2744, 133.7751], name: 'Australia'},
+          {latLng: [54.5260, -105.2551], name: 'North America'},
+          {latLng: [-8.7832, -55.4915], name: 'South America'},
+          {latLng: [50.5260, 23.2551], name: 'Europe'}
+        ],      
+
+        onMarkerClick: function(e, code){
+          if (code==0){
+            window.location.href = "http://stackoverflow.com";
+          }
+          else if (code==1){
+            window.location.href = "file:///C:/Users/GWC/Desktop/fake.html";
+          }
+          else if (code==2){
+             window.location.href = "file:///C:/Users/GWC/Desktop/fake.html";
+          }
+          else if (code==3){
+             window.location.href = "file:///C:/Users/GWC/Desktop/fake.html";
+          }
+          else if (code==4){
+             window.location.href = "file:///C:/Users/GWC/Desktop/fake.html";
+          }
+          else if (code==5){
+             window.location.href = "file:///C:/Users/GWC/Desktop/fake.html";
+          }
+          else if (code==6){
+             window.location.href = "file:///C:/Users/GWC/Desktop/fake.html";
+          }
+
+          }
+
+        });
+      });
+  </script>
+
   <style>
+
+#map2{
+      width:100vw; height:90vh;
+    }
+
+    #map2:hover{
+      fill: #E074F3;
+    }
+
+    #chooseaRegion{
+      width:100%;
+      background-color: #A9A9A9;
+      color:#ffffff;
+      font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+      font-size: 50px;
+      font-style:normal;
+      padding: 20px;
+    }
+    
+
+
   body {
       position: relative; 
   }
@@ -131,6 +260,9 @@
  <div><img style="border-radius: 50%; width:55px" src= "placeholder_pic.jpg" > <h1>Angela Fu</h1><div>email:_____ linkedin:_______ facebook:________</div></div>
 </div>
 </div>
+
+  <div id="chooseaRegion"><center> Choose a region </center></div>
+  <div id="map2"></div>
 
 <script src="homeJava.js"></script>
 </body>
