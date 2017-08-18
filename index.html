@@ -118,8 +118,13 @@
 
   <style>
 
-#map2{
-      width:100vw; height:90vh;
+    #map2{
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+
+      /*width:100vw; height:100vh;*/
     }
 
     #map2:hover{
@@ -184,11 +189,11 @@
 }
 
   #section1 {padding-top:0px;height:700px; background-image: url("images/clouds.gif"); background-size: cover;}
-  #section2 {padding-top:50px;height:700px;color: #fff; background-color: #ADACB5;}
+  #section2 {padding-top:50px;height:700px;color: #fff; background-color: #A9A9A9;}
   #section3 {padding-top:50px;height:700px;color: #fff; background-image: url("images/home_bg.JPG"); background-size: cover;}
   #section4 {padding-top:50px;height:700px;color: #fff; background-color: #B0D7FF;}
   #section5 {padding-top:50px;height:700px;color: #fff; background-image: url("images/planeUp.JPG"); background-size: cover;}
-  </style>
+</style>
 
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -227,7 +232,7 @@
 <div id="section1" class="container-fluid center century">
 	<div class= "c">
 		<h1><b><font size="50" color="#ffffff"> <img src= "images/worldly.png" </font></b></h1>
-		<h2><font color="#ffffff"> The essential travel guide- made for <u><i>women</i></u> (and men I guess), by <u><i>women</i></u>.</font></h2>
+		<h2><font color="#ffffff"> The essential travel guide- made for <u><i>women</i></u>, by <u><i>women</i></u>.</font></h2>
 		<!-- <h2>Worldly wisdom of respectful customs and traditions.</h2> -->
 	</div>  
 	<div>
@@ -241,8 +246,8 @@
 </div>
 
 <div id="section2" class="container-fluid center century">
-  <h1> Choose a Region...</h1>
-  <p>WHERE MAP IS SUPPOSED TO GO</p>
+  <div id="chooseaRegion"><center> Choose a region </center></div>
+  <div id="map2"></div>
 </div>
 
 <div id="section3" class="container-fluid center century">
@@ -253,18 +258,22 @@
   <h1><b> Meet the Team! </b></h1>
   <p>WHERE ABOUT US STUFF IS SUPPOSED TO GO</p>
 </div>
+
 <div id="section5" class="container-fluid center century">
   <h1><b> Get in touch with us! </b></h1>
- <div style=""><div><img style="border-radius: 50%; width:55px; text-align: center" src= "placeholder_pic.jpg" > <h1>Rebekah Lubnick</h1><div>email:_____ linkedin:_______ facebook:________</div></div>
- <div><img style="border-radius: 50%; width:55px" src= "placeholder_pic.jpg" > <h1>Abigail Cumberbatch</h1><div>email:_____ linkedin:_______ </div></div>
- <div><img style="border-radius: 50%; width:55px" src= "placeholder_pic.jpg" > <h1>Christine Liu </h1><div>email:_____ linkedin:_______ facebook:________</div> </div>
- <div><img style="border-radius: 50%; width:55px" src= "placeholder_pic.jpg" > <h1>Angela Fu</h1><div>email:_____ linkedin:_______ facebook:________</div></div>
-</div>
-</div>
 
-  <div id="chooseaRegion"><center> Choose a region </center></div>
+   <div style="">
+    <div><img style="border-radius: 50%; width:55px; text-align: center" src= "placeholder_pic.jpg" > <h1>Rebekah Lubnick</h1><div>email:_____ linkedin:_______ facebook:________</div> </div>
+
+    <div><img style="border-radius: 50%; width:55px" src= "placeholder_pic.jpg" > <h1>Abigail Cumberbatch</h1><div>email:_____ linkedin:_______ </div></div>
+ 
+    <div><img style="border-radius: 50%; width:55px" src= "placeholder_pic.jpg" > <h1>Christine Liu </h1><div>email:_____ linkedin:_______ facebook:________</div> </div>
+    
+    <div><img style="border-radius: 50%; width:55px" src= "placeholder_pic.jpg" > <h1>Angela Fu</h1><div>email:_____ linkedin:_______ facebook:________</div></div>
+</div>
+</div>
   
-  <div id="map2"></div>
+  
 
 <script src="homeJava.js"></script>
 </body>
