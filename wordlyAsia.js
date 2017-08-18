@@ -113,22 +113,21 @@ function hk(){
 
 	  	document.getElementById("hkComment").style.display = 'inline';
 	  }
-}
 
-function isreal(){
-	 	    document.getElementById("hkInfo").style.display = 'inline'; 
-	      	document.getElementById("hkComment").style.display = 'none';
+
+function israel(){
+	 	    document.getElementById("israelInfo").style.display = 'inline'; 
+	      	document.getElementById("israelComment").style.display = 'none';
 
 	 }
-	 function isrealInfoClick(){
-	 	console.log(document.getElementById("isrealInfo"))
-	    document.getElementById("isrealInfo").style.display = 'inline'; 
-	      	document.getElementById("isrealComment").style.display = 'none';
+	 function israelInfoClick(){
+	 	console.log(document.getElementById("israelInfo"))
+	    document.getElementById("israelInfo").style.display = 'inline'; 
+	      	document.getElementById("israelComment").style.display = 'none';
 
 	  }
-	  function isrealCommentClick(){
-	  	    document.getElementById("isrealInfo").style.display = 'none'; 
+	  function israelCommentClick(){
+	  	    document.getElementById("israelInfo").style.display = 'none'; 
 
-	  	document.getElementById("isrealComment").style.display = 'inline';
+	  	document.getElementById("israelComment").style.display = 'inline';
 	  }
-}
