@@ -13,6 +13,15 @@
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appID=810497285794451&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 
 <div id="container"></div><nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
@@ -84,10 +93,11 @@
                   <p>hi this is a fact</p>
                 </div>
               
-                <div id="chinaComment" class="commentSection"> 
+                <div id="israelComment" id="chinaComment" class="commentSection"> 
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
-
+                  <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/middleEast/israelComments.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
+                  
                   <div  id="entry">
                     
                   </div>
@@ -119,9 +129,11 @@ EGYPT-->
                   <p>hi this is a fact</p>
                 </div>
               
-                <div id="thailandComment" class="commentSection"> 
+                <div id="egyptComments" id="thailandComment" class="commentSection"> 
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
+                   <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/middleEast/egyptComments.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
+                  
 
                   <div  id="entry">
                     
@@ -155,7 +167,9 @@ EGYPT-->
               
                 <div id="japanComment" class="commentSection"> 
 
-                  <h1 style="color: white;  text-align: center">Comments</h1>
+                  <h1 id="saComments" style="color: white;  text-align: center">Comments</h1>
+                   <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/middleEast/saComments.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
+                  
 
                   <div  id="entry">
                     
@@ -189,7 +203,9 @@ EGYPT-->
               
                 <div id="indiaComment" class="commentSection"> 
 
-                  <h1 style="color: white;  text-align: center">Comments</h1>
+                  <h1 id="uaeComments" style="color: white;  text-align: center">Comments</h1>
+                    <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/middleEast/uaeComments.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
+
 
                   <div  id="entry">
                     
@@ -223,7 +239,8 @@ EGYPT-->
               
                 <div id="sKoreaComment" class="commentSection"> 
 
-                  <h1 style="color: white;  text-align: center">Comments</h1>
+                  <h1 id="turkeyComments" style="color: white;  text-align: center">Comments</h1>
+                    <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/middleEast/turkeyComments.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
 
                   <div  id="entry">
                     
