@@ -234,3 +234,8 @@
     height:100%;
     width:100%;
   }
+
+  #infoID{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
