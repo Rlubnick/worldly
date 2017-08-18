@@ -113,18 +113,22 @@ function hk(){
 
 	  	document.getElementById("hkComment").style.display = 'inline';
 	  }
-
-function commentClick(country){
-	var countryInfo = country +"Info";
-	var countryComment = country +"Comment";
-	document.getElementById(countryInfo).style.display = 'none'; 
-	document.getElementById(countryComment).style.display = 'inline';
 }
- function InfoClick(country){
- 	var countryInfo = country +"Info";
- 	var countryComment = country +"Comment";
- 	console.log(document.getElementById(countryInfo))
-    document.getElementById(countryInfo).style.display = 'inline'; 
-      	document.getElementById(countryComment).style.display = 'none';
 
-  }
+function isreal(){
+	 	    document.getElementById("hkInfo").style.display = 'inline'; 
+	      	document.getElementById("hkComment").style.display = 'none';
+
+	 }
+	 function isrealInfoClick(){
+	 	console.log(document.getElementById("isrealInfo"))
+	    document.getElementById("isrealInfo").style.display = 'inline'; 
+	      	document.getElementById("isrealComment").style.display = 'none';
+
+	  }
+	  function isrealCommentClick(){
+	  	    document.getElementById("isrealInfo").style.display = 'none'; 
+
+	  	document.getElementById("isrealComment").style.display = 'inline';
+	  }
+}
