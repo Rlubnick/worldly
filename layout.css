@@ -273,3 +273,11 @@
     padding-left: 10%;
     padding-right: 10%;
   }
+  #israel {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    sfont-weight: 100;
+    padding-top:50px;
+    height:650px;
+    color: #fff; 
+    background-color: lightgrey;
+  }
