@@ -135,7 +135,7 @@
    #algeriaCSS{
     background-image: url("./images/algeria.jpg"); 
   }
-  #aleriaComments{}
+  #algeriaComments{}
   #hkCSS{
     background-image: url("./images/hk.jpg"); 
   }
@@ -355,6 +355,46 @@
     background-color: lightgrey;
   }
    #argentina{
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-weight: 100;
+    padding-top:50px;
+    height:650px;
+    color: #fff; 
+    background-color: lightgrey;
+  }
+  #morocco {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-weight: 100;
+    padding-top:50px;
+    height:650px;
+    color: #fff; 
+    background-color: lightgrey;
+  }
+   #tunisia {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-weight: 100;
+    padding-top:50px;
+    height:650px;
+    color: #fff; 
+    background-color: lightgrey;
+  }
+   #tanz {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-weight: 100;
+    padding-top:50px;
+    height:650px;
+    color: #fff; 
+    background-color: lightgrey;
+  }
+   #ghana {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-weight: 100;
+    padding-top:50px;
+    height:650px;
+    color: #fff; 
+    background-color: lightgrey;
+  }
+   #algeria{
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     font-weight: 100;
     padding-top:50px;

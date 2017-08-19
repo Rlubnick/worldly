@@ -317,7 +317,96 @@ function chile(){
 	  }
 
 
+	  //MOROCCCO
+		function morocco(){
+	 	    document.getElementById("moroccoInfo").style.display = 'inline'; 
+	      	document.getElementById("moroccoComment").style.display = 'none';
 
+	 }
+	 function moroccoInfoClick(){
+	 	console.log(document.getElementById("moroccoInfo"))
+	    document.getElementById("moroccoInfo").style.display = 'inline'; 
+	      	document.getElementById("moroccoComment").style.display = 'none';
+
+	  }
+	  function moroccoCommentClick(){
+	  	    document.getElementById("moroccoInfo").style.display = 'none'; 
+
+	  	document.getElementById("moroccoComment").style.display = 'inline';
+	  }
+
+
+	   //TUNISIA
+		function tunisia(){
+	 	    document.getElementById("tunisiaInfo").style.display = 'inline'; 
+	      	document.getElementById("tunisiaComment").style.display = 'none';
+
+	 }
+	 function tunisiaInfoClick(){
+	 	console.log(document.getElementById("tunisiaInfo"))
+	    document.getElementById("tunisiaInfo").style.display = 'inline'; 
+	      	document.getElementById("tunisiaComment").style.display = 'none';
+
+	  }
+	  function tunisiaCommentClick(){
+	  	    document.getElementById("tunisiaInfo").style.display = 'none'; 
+
+	  	document.getElementById("tunisiaComment").style.display = 'inline';
+	  }
+
+ //TANZANIA
+		function tanz(){
+	 	    document.getElementById("tanzInfo").style.display = 'inline'; 
+	      	document.getElementById("tanzComment").style.display = 'none';
+
+	 }
+	 function tanzInfoClick(){
+	 	console.log(document.getElementById("tanzInfo"))
+	    document.getElementById("tanzInfo").style.display = 'inline'; 
+	      	document.getElementById("tanzComment").style.display = 'none';
+
+	  }
+	  function tanzCommentClick(){
+	  	    document.getElementById("tanzInfo").style.display = 'none'; 
+
+	  	document.getElementById("tanzComment").style.display = 'inline';
+	  }
+
+//GHANA
+		function ghana(){
+	 	    document.getElementById("ghanaInfo").style.display = 'inline'; 
+	      	document.getElementById("ghanaComment").style.display = 'none';
+
+	 }
+	 function ghanaInfoClick(){
+	 	console.log(document.getElementById("ghanaInfo"))
+	    document.getElementById("ghanaInfo").style.display = 'inline'; 
+	      	document.getElementById("ghanaComment").style.display = 'none';
+
+	  }
+	  function ghanaCommentClick(){
+	  	    document.getElementById("ghanaInfo").style.display = 'none'; 
+
+	  	document.getElementById("ghanaComment").style.display = 'inline';
+	  }
+
+	  //ALGERIA
+		function algeria(){
+	 	    document.getElementById("algeriaInfo").style.display = 'inline'; 
+	      	document.getElementById("algeriaComment").style.display = 'none';
+
+	 }
+	 function algeriaInfoClick(){
+	 	console.log(document.getElementById("algeriaInfo"))
+	    document.getElementById("algeriaInfo").style.display = 'inline'; 
+	      	document.getElementById("ghanaComment").style.display = 'none';
+
+	  }
+	  function algeriaCommentClick(){
+	  	    document.getElementById("algeriaInfo").style.display = 'none'; 
+
+	  	document.getElementById("algeriaComment").style.display = 'inline';
+	  }
 
 
 
