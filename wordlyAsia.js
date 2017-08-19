@@ -225,4 +225,111 @@ function greece(){
 	  	document.getElementById("greeceComment").style.display = 'inline';
 	  }
 
+//PERU
+
+function peru(){
+	 	    document.getElementById("peruInfo").style.display = 'inline'; 
+	      	document.getElementById("peruComment").style.display = 'none';
+
+	 }
+	 function peruInfoClick(){
+	 	console.log(document.getElementById("peruInfo"))
+	    document.getElementById("peruInfo").style.display = 'inline'; 
+	      	document.getElementById("peruComment").style.display = 'none';
+
+	  }
+	  function peruCommentClick(){
+	  	    document.getElementById("peruInfo").style.display = 'none'; 
+
+	  	document.getElementById("peruComment").style.display = 'inline';
+	  }
+
+	  //BRAZIL
+
+function brazil(){
+	 	    document.getElementById("peruInfo").style.display = 'inline'; 
+	      	document.getElementById("peruComment").style.display = 'none';
+
+	 }
+	 function brazilInfoClick(){
+	 	console.log(document.getElementById("brazilInfo"))
+	    document.getElementById("brazilInfo").style.display = 'inline'; 
+	      	document.getElementById("brazilComment").style.display = 'none';
+
+	  }
+	  function brazilCommentClick(){
+	  	    document.getElementById("brazilInfo").style.display = 'none'; 
+
+	  	document.getElementById("brazilComment").style.display = 'inline';
+	  }
+
+//CHILE
+function chile(){
+	 	    document.getElementById("chileInfo").style.display = 'inline'; 
+	      	document.getElementById("chileComment").style.display = 'none';
+
+	 }
+	 function chileInfoClick(){
+	 	console.log(document.getElementById("chileInfo"))
+	    document.getElementById("chileInfo").style.display = 'inline'; 
+	      	document.getElementById("chileComment").style.display = 'none';
+
+	  }
+	  function chileCommentClick(){
+	  	    document.getElementById("chileInfo").style.display = 'none'; 
+
+	  	document.getElementById("chileComment").style.display = 'inline';
+	  }
+
+	  //COSTA RICA
+		function cr(){
+	 	    document.getElementById("chileInfo").style.display = 'inline'; 
+	      	document.getElementById("chileComment").style.display = 'none';
+
+	 }
+	 function crInfoClick(){
+	 	console.log(document.getElementById("crInfo"))
+	    document.getElementById("crInfo").style.display = 'inline'; 
+	      	document.getElementById("crComment").style.display = 'none';
+
+	  }
+	  function crCommentClick(){
+	  	    document.getElementById("crInfo").style.display = 'none'; 
+
+	  	document.getElementById("crComment").style.display = 'inline';
+	  }
+	  //ARGENTINA
+		function argentina(){
+	 	    document.getElementById("argentinaInfo").style.display = 'inline'; 
+	      	document.getElementById("argentinaComment").style.display = 'none';
+
+	 }
+	 function argentinaInfoClick(){
+	 	console.log(document.getElementById("argentinaInfo"))
+	    document.getElementById("argentinaInfo").style.display = 'inline'; 
+	      	document.getElementById("argentinaComment").style.display = 'none';
+
+	  }
+	  function argentinaCommentClick(){
+	  	    document.getElementById("argentinaInfo").style.display = 'none'; 
+
+	  	document.getElementById("argentinaComment").style.display = 'inline';
+	  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
