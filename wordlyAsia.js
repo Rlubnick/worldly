@@ -114,6 +114,7 @@ function hk(){
 	  	document.getElementById("hkComment").style.display = 'inline';
 	  }
 
+//ISRAEL
 
 function israel(){
 	 	    document.getElementById("israelInfo").style.display = 'inline'; 
@@ -131,3 +132,97 @@ function israel(){
 
 	  	document.getElementById("israelComment").style.display = 'inline';
 	  }
+
+//FRAMCE
+function france(){
+	 	    document.getElementById("franceInfo").style.display = 'inline'; 
+	      	document.getElementById("franceComment").style.display = 'none';
+
+	 }
+	 function franceInfoClick(){
+	 	console.log(document.getElementById("franceInfo"))
+	    document.getElementById("franceInfo").style.display = 'inline'; 
+	      	document.getElementById("franceComment").style.display = 'none';
+
+	  }
+	  function franceCommentClick(){
+	  	    document.getElementById("franceInfo").style.display = 'none'; 
+
+	  	document.getElementById("franceComment").style.display = 'inline';
+	  }
+
+//ENGLAND
+
+function england(){
+	 	    document.getElementById("englandInfo").style.display = 'inline'; 
+	      	document.getElementById("englandComment").style.display = 'none';
+
+	 }
+	 function englandInfoClick(){
+	 	console.log(document.getElementById("englandInfo"))
+	    document.getElementById("englandInfo").style.display = 'inline'; 
+	      	document.getElementById("englandComment").style.display = 'none';
+
+	  }
+	  function englandCommentClick(){
+	  	    document.getElementById("englandInfo").style.display = 'none'; 
+
+	  	document.getElementById("englandComment").style.display = 'inline';
+	  }
+//ITALY
+
+function italy(){
+	 	    document.getElementById("italyInfo").style.display = 'inline'; 
+	      	document.getElementById("italyComment").style.display = 'none';
+
+	 }
+	 function italyInfoClick(){
+	 	console.log(document.getElementById("italyInfo"))
+	    document.getElementById("italyInfo").style.display = 'inline'; 
+	      	document.getElementById("italyComment").style.display = 'none';
+
+	  }
+	  function italyCommentClick(){
+	  	    document.getElementById("italyInfo").style.display = 'none'; 
+
+	  	document.getElementById("italyComment").style.display = 'inline';
+	  }
+
+	  //GERMANY
+
+function germany(){
+	 	    document.getElementById("germanyInfo").style.display = 'inline'; 
+	      	document.getElementById("germanyComment").style.display = 'none';
+
+	 }
+	 function germanyInfoClick(){
+	 	console.log(document.getElementById("germanyInfo"))
+	    document.getElementById("germanyInfo").style.display = 'inline'; 
+	      	document.getElementById("germanyComment").style.display = 'none';
+
+	  }
+	  function germanyCommentClick(){
+	  	    document.getElementById("germanyInfo").style.display = 'none'; 
+
+	  	document.getElementById("germanyComment").style.display = 'inline';
+	  }
+ //GREECE
+
+function greece(){
+	 	    document.getElementById("greeceInfo").style.display = 'inline'; 
+	      	document.getElementById("greeceComment").style.display = 'none';
+
+	 }
+	 function greeceInfoClick(){
+	 	console.log(document.getElementById("greeceInfo"))
+	    document.getElementById("greeceInfo").style.display = 'inline'; 
+	      	document.getElementById("greeceComment").style.display = 'none';
+
+	  }
+	  function greeceCommentClick(){
+	  	    document.getElementById("greeceInfo").style.display = 'none'; 
+
+	  	document.getElementById("greeceComment").style.display = 'inline';
+	  }
+
+
