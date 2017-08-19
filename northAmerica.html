@@ -9,15 +9,6 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="layout.css">
 
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
@@ -49,9 +40,10 @@
           <li><a href="#japan">Mexico</a></li> -->
           <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Countries <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="#china">U.S.A.</a></li>
-              <li><a href="#thailand">Canada</a></li>
-              <li><a href="#japan">Mexico</a></li>
+            <li><a href="#top">Back to top</a></li>
+              <li><a href="#usa">U.S.A.</a></li>
+              <li><a href="#canada">Canada</a></li>
+              <li><a href="#mexico">Mexico</a></li>
             </ul>
           </li>
         </ul>
@@ -65,41 +57,40 @@
         <div id="top" class="container-fluid">
           <h1 style="font-size: 150px; color: white">NORTH AMERICA</h1>
               
-                  <span><li style="color:white"><a style="color:#503D3F;" href="#china">France</a></li></span>
-                  <span><li style="color:white"><a style="color:#503D3F;" href="#thailand">England</a></li style="color:white"></span>
-                  <span><li style="color:white"><a style="color:#503D3F;" href="#japan">Italy </a></li></span>
-                  <span><li style="color:white"><a style="color:#503D3F;" href="#india">Germany</a></li></span>
-                  <span><li style="color:white"><a style="color:#503D3F;" href="#sKorea">Greece Korea</a></li></span>
+                  <span><li style="color:white"><a style="color:#503D3F;" href="#usa">U.S.A.</a></li></span>
+                  <span><li style="color:white"><a style="color:#503D3F;" href="#canada">Canada</a></li style="color:white"></span>
+                  <span><li style="color:white"><a style="color:#503D3F;" href="#mexico">Mexico </a></li></span>
+         
 
         </div>
 
 <!-- USA -->
 
-           <div id="china" class="container-fluid">  
+           <div id="usa" class="container-fluid">  
               <div class="country" id="usaCSS">
                 <div class="circle">
                   <div class="names">
 
                     <h1>U.S.A</h1>
 
-                    <span  onclick="chinaInfoClick()" >info </span>
+                    <span  onclick="usaInfoClick()" >info </span>
                     <span>|</span>
-                    <span onclick="chinaCommentClick()"> comments</span>
+                    <span onclick="usaCommentClick()"> comments</span>
 
                   </div>
                 </div>
               </div>
 
               <div class="right">
-                <div id="chinaInfo">
+                <div id="usaInfo">
                   <h1 style="color: white;  text-align: center">Information</h1> 
                   <p>hi this is a fact</p>
                 </div>
               
-                <div id="chinaComment" class="commentSection"> 
+                <div id="usaComment" class="commentSection"> 
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
-
+                    <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/northAmerica/usaComment.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
                   <div  id="entry">
                     
                   </div>
@@ -110,31 +101,31 @@
 <!-- 
 CANADA -->
 
-           <div id="thailand" class="container-fluid">  
+           <div id="canada" class="container-fluid">  
               <div class="country" id="canadaCSS">
                 <div class="circle">
                   <div class="names">
 
                     <h1>Canada</h1>
 
-                    <span  onclick="thailandInfoClick()" >info </span>
+                    <span  onclick="canadaInfoClick()" >info </span>
                     <span>|</span>
-                    <span onclick="thailandCommentClick()"> comments</span>
+                    <span onclick="canadaCommentClick()"> comments</span>
 
                   </div>
                 </div>
               </div>
 
               <div class="right">
-                <div id="thailandInfo">
+                <div id="canadaInfo">
                   <h1 style="color: white;  text-align: center">Information</h1> 
                   <p>hi this is a fact</p>
                 </div>
               
-                <div id="thailandComment" class="commentSection"> 
+                <div id="canadaComment" class="commentSection"> 
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
-
+                    <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/northAmerica/canadaComment.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
                   <div  id="entry">
                     
                   </div>
@@ -144,31 +135,31 @@ CANADA -->
 
 <!-- MEXICO -->
 
-      <div id="japan" class="container-fluid">  
+      <div id="mexico" class="container-fluid">  
               <div class="country" id="mexicoCSS">
                 <div class="circle">
                   <div class="names">
 
                     <h1 >Mexico</h1>
 
-                    <span  onclick="japanInfoClick()" >info </span>
+                    <span  onclick="mexicoInfoClick()" >info </span>
                     <span>|</span>
-                    <span onclick="japanCommentClick()"> comments</span>
+                    <span onclick="mexicoCommentClick()"> comments</span>
 
                   </div>
                 </div>
               </div>
 
               <div class="right">
-                <div id="japanInfo">
+                <div id="mexicoInfo">
                   <h1 style="color: white;  text-align: center">Information</h1> 
                   <p>hi this is a fact</p>
                 </div>
               
-                <div id="japanComment" class="commentSection"> 
+                <div id="mexicoComment" class="commentSection"> 
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
-
+                    <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/northAmerica/mexicoComment.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
                   <div  id="entry">
                     
                   </div>
