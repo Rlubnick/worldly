@@ -8,16 +8,6 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="layout.css">
-
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
@@ -42,16 +32,20 @@
     <div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
-          <li><a href="#top">Back to Top </a></li>
+         <!--  <li><a href="#top">Back to Top </a></li>
+          <li><a href="#france">France</a></li>
+          <li><a href="#england">England</a></li>
+          <li><a href="#italy">Italy </a></li>
+          <li><a href="#germany">Germany</a></li>
+           <li><a href="#greece">Greece</a></li> -->
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+               <li><a href="#top">Back to Top </a></li>
           <li><a href="#france">France</a></li>
           <li><a href="#england">England</a></li>
           <li><a href="#italy">Italy </a></li>
           <li><a href="#germany">Germany</a></li>
            <li><a href="#greece">Greece</a></li>
-          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#section41">Section 4-1</a></li>
-              <li><a href="#section42">Section 4-2</a></li>
             </ul>
           </li>
         </ul>
