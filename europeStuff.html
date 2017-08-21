@@ -43,16 +43,16 @@
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
           <li><a href="#top">Back to Top </a></li>
-          <li><a href="#china">France</a></li>
-          <li><a href="#thailand">England</a></li>
-          <li><a href="#japan">Italy </a></li>
-          <li><a href="#india">Germany</a></li>
-           <li><a href="#sKorea">Greece</a></li>
-          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>
+
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Countries <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="#section41">Section 4-1</a></li>
-              <li><a href="#section42">Section 4-2</a></li>
+              <li><a href="#france">France</a></li>
+              <li><a href="#england">England</a></li>
+              <li><a href="#italy">Italy </a></li>
+              <li><a href="#germany">Germany</a></li>
+              <li><a href="#greece">Greece</a></li>
             </ul>
+          
           </li>
         </ul>
       </div>
@@ -69,29 +69,29 @@
                   <span><li style="color:white"><a style="color:#503D3F;" href="#thailand">England</a></li style="color:white"></span>
                   <span><li style="color:white"><a style="color:#503D3F;" href="#japan">Italy </a></li></span>
                   <span><li style="color:white"><a style="color:#503D3F;" href="#india">Germany</a></li></span>
-                  <span><li style="color:white"><a style="color:#503D3F;" href="#sKorea">Greece Korea</a></li></span>
+                  <span><li style="color:white"><a style="color:#503D3F;" href="#sKorea">Greece</a></li></span>
 
         </div>
 
 <!-- FRANCE -->
 
-           <div id="china" class="container-fluid">  
+           <div id="france" class="container-fluid">  
               <div class="country" id="franceCSS">
                 <div class="circle">
                   <div class="names">
 
                     <h1>France</h1>
 
-                    <span  onclick="chinaInfoClick()" >info </span>
+                    <span  onclick="infoToggleOn(franceComment, franceInfo)" >info </span>
                     <span>|</span>
-                    <span onclick="chinaCommentClick()"> comments</span>
+                    <span onclick="commentToggleOn(franceComment, franceInfo)"> comments</span>
 
                   </div>
                 </div>
               </div>
 
               <div class="right" id="infoID">
-                <div id="chinaInfo">
+                <div id="franceInfo">
                   <h1 style="color: white;  text-align: center">Information</h1> 
 
                   <h3>Business</h3>
@@ -120,9 +120,9 @@
 
                 </div>
               
-                <div id="chinaComment" class="commentSection"> 
+                <div id="franceComment" class="commentSection" style="display: none"> 
 
-                  <h1 style="color: white;  text-align: center">Comments</h1>
+                  <h1 style="color: white;  text-align: center;">Comments</h1>
 
                   <div  id="entry">
                     
@@ -134,28 +134,52 @@
 <!-- 
 ENGLAND -->
 
-           <div id="thailand" class="container-fluid">  
+           <div id="england" class="container-fluid">  
               <div class="country" id="englandCSS">
                 <div class="circle">
                   <div class="names">
 
                     <h1>England</h1>
 
-                    <span  onclick="thailandInfoClick()" >info </span>
+                    <span  onclick="infoToggleOn(englandComment, englandInfo)" >info </span>
                     <span>|</span>
-                    <span onclick="thailandCommentClick()"> comments</span>
+                    <span onclick="commentToggleOn(englandComment, englandInfo)"> comments</span>
 
                   </div>
                 </div>
               </div>
 
               <div class="right" id="infoID">
-                <div id="thailandInfo">
+                <div id="englandInfo">
                   <h1 style="color: white;  text-align: center">Information</h1> 
-                  <p>hi this is a fact</p>
+                  
+                  <h3>Business</h3>
+                    <ul>
+                      <li>Conducting business for foreign women in Great Britain should run smoothly however, in a meal setting, women should pay for the meal to establish a presence.</li>
+                      <li>If a foreign woman wants to invite an Englishman to dinner it should reconsidered to invite him for lunch instead.</li>
+                    </ul>
+
+                  <h3>Greetings</h3>
+                    <ul>
+                      <li>Terms such as  love, dearie, or darling are common english terms, therefore foreign women should not be offended when called the following terms.</li>
+                    </ul>
+
+                  <h3>Social Conditions</h3>
+                    <ul>
+                      <li>It is more proper to cross your legs at the ankles rather than at the knees.</li>
+                      <li>Be aware that there is strong male dominated presence within The 'Old Boy Network' in England as well as throughout the U.K. But, the number in managerial positions have increased compared to other European countries.</li>
+                    </ul>
+
+                  <h3>Attire</h3>
+                    <ul>
+                      <li>Men and women wear wools and tweeds for casual occasions. Slacks, sweaters and jackets are appropriate for men and women.</li>
+                      <li>Women usually wear suits, dresses or skirts and blouses, but in more social events cocktail suits and dresses are more appropriate.</li>
+                    </ul>
+                    </ul>
+
                 </div>
               
-                <div id="thailandComment" class="commentSection"> 
+                <div id="englandComment" class="commentSection" style="display: none"> 
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
 
@@ -168,28 +192,53 @@ ENGLAND -->
 
 <!-- ITALY -->
 
-      <div id="japan" class="container-fluid">  
+      <div id="italy" class="container-fluid">  
               <div class="country" id="italyCSS">
                 <div class="circle">
                   <div class="names">
 
                     <h1 >Italy</h1>
 
-                    <span  onclick="japanInfoClick()" >info </span>
+                    <span  onclick="infoToggleOn(italyComment, italyInfo)" >info </span>
                     <span>|</span>
-                    <span onclick="japanCommentClick()"> comments</span>
+                    <span onclick="commentToggleOn(italyComment, italyInfo)"> comments</span>
 
                   </div>
                 </div>
               </div>
 
               <div class="right" id="infoID">
-                <div id="japanInfo">
+                <div id="italyInfo">
                   <h1 style="color: white;  text-align: center">Information</h1> 
-                  <p>hi this is a fact</p>
+                  
+                  <h3>Business</h3>
+                    <ul>
+                      <li>Business attire for women and men alike requires for conservative dress- primarily dresses and suits for women.</li>
+                      <li>It is important to be punctual. Tardiness is seen as being sloppy unless called ahead of time.</li>
+                      <li>Try to avoid calling Italian businesspeople at home unless it is an emergency.</li>
+                    </ul>
+
+                  <h3>Greetings</h3>
+                    <ul>
+                      <li>It is important to shake hands with everyone present when being introduced during a social or business meeting, and once more before leaving.</li>
+                      <li>Women typically use their maiden names in business settings or legal documents. However, outside of a business setting, women typically use their married names or a combination of both.</li>
+                    </ul>
+
+                  <h3>Social Conditions</h3>
+                    <ul>
+                      <li>Italians are often tolerant, open, and curious to the manners and niches of others.</li>
+                      <li>Italians enjoy good humor than can oftentimes be self-deprecating.</li>
+                    </ul>
+
+                  <h3>Attire</h3>
+                    <ul>
+                      <li>Because Italy is a leader in fashion, even those in small towns invest a lot in fashion and their appearance.</li>
+                      <li>Try to dress conservatively but elegantly at the same time.</li>
+                    </ul>
+
                 </div>
               
-                <div id="japanComment" class="commentSection"> 
+                <div id="italyComment" class="commentSection"> 
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
 
@@ -202,23 +251,23 @@ ENGLAND -->
 
 <!-- GERMANY-->
 
-      <div id="india" class="container-fluid">  
+      <div id="germany" class="container-fluid">  
               <div class="country" id="germanyCSS">
                 <div class="circle">
                   <div class="names">
 
                     <h1>Germany</h1>
 
-                    <span  onclick="indiaInfoClick()" >info </span>
+                    <span  onclick="infoToggleOn(germanyComment, germanyInfo)" >info </span>
                     <span>|</span>
-                    <span onclick="indiaCommentClick()"> comments</span>
+                    <span onclick="commentToggleOn(germanyComment, germanyInfo)"> comments</span>
 
                   </div>
                 </div>
               </div>
 
               <div class="right" id="infoID">
-                <div id="indiaInfo">
+                <div id="germanyInfo">
                   <h1 style="color: white;  text-align: center">Information</h1> 
                   
                   <h3>Business</h3>
@@ -238,16 +287,18 @@ ENGLAND -->
 
                   <h3>Social Conditions</h3>
                     <ul>
-                      <li></li>
+                      <li>Germans are typically more punctual and formal than most countries.</li>
+                      <li>It is common for men or younger people to always walk to the left of a woman.</li>
                     </ul>
 
                   <h3>Attire</h3>
                     <ul>
-                      <li></li>
+                      <li>It is frowned upon to dress sloppily or with no effort.</li>
+                      <li>It is important to be well and appropriately dressed.</li>
                     </ul>
                 </div>
               
-                <div id="indiaComment" class="commentSection"> 
+                <div id="germanyComment" class="commentSection" style="display: none"> 
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
 
@@ -260,28 +311,53 @@ ENGLAND -->
 
 <!-- GREECE-->
 
-           <div id="sKorea" class="container-fluid">  
+           <div id="greece" class="container-fluid">  
               <div class="country" id="greeceCSS">
                 <div class="circle">
                   <div class="names">
 
                     <h1>Greece</h1>
 
-                    <span  onclick="sKoreaInfoClick()" >info </span>
+                    <span  onclick="infoToggleOn(greeceComment, greeceInfo)" >info </span>
                     <span>|</span>
-                    <span onclick="sKoreaCommentClick()"> comments</span>
+                    <span onclick="commentToggleOn(greeceComment, greeceInfo)"> comments</span>
 
                   </div>
                 </div>
               </div>
 
               <div class="right" id="infoID">
-                <div id="sKoreaInfo">
+                <div id="greeceInfo">
                   <h1 style="color: white;  text-align: center">Information</h1> 
-                  <p>hi this is a fact</p>
+                  
+                  <h3>Business</h3>
+                    <ul>
+                      <li>Although punctuality is not seen as majorly important in Greek culture, it is important for foreigners to be on time, even if their Greek counterparts aren’t.</li>
+                      <li>Foreign women are often able to do good business in Greece.</li>
+                      <li>Women’s business opportunities often depend on their connections, as do men’s as well.</li>
+                    </ul>
+
+                  <h3>Greetings</h3>
+                    <ul>
+                      <li>It is important to shake hands with everyone in the room when in a business or social meeting, and again before leaving.</li>
+                      <li>It is common for good friends to kiss and/or embrace each other.</li>
+                    </ul>
+
+                  <h3>Social Conditions</h3>
+                    <ul>
+                      <li>It could possibly be problematic for a foreign woman to invite a Greek man to lunch or dinner, thus it is better to invite friends along or his wife as well for dinner.</li>
+                      <li>Expect Greeks to ask more personal questions regarding marriage, children, etc. Try not to view it as rude but rather as a means to get to know your more personally.</li>
+                    </ul>
+
+                  <h3>Attire</h3>
+                    <ul>
+                      <li>Women typically wear dresses.</li>
+                      <li>Greek dress is generally  more informal than that of other European countries.</li>
+                    </ul>
+
                 </div>
               
-                <div id="sKoreaComment" class="commentSection"> 
+                <div id="greeceComment" class="commentSection" style="display: none"> 
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
 

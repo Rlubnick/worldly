@@ -28,17 +28,17 @@
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
           <li><a href="#top">Back to Top </a></li>
-          <li><a href="#china">Morocco</a></li>
-          <li><a href="#thailand">Tunisia</a></li>
-          <li><a href="#japan">Tanzania</a></li>
-          <li><a href="#india">Ghana</a></li>
-           <li><a href="#sKorea">Algeria</a></li>
-          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>
+
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Countries <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="#section41">Section 4-1</a></li>
-              <li><a href="#section42">Section 4-2</a></li>
+              <li><a href="#morocco">Morocco</a></li>
+              <li><a href="#tunisia">Tunisia</a></li>
+              <li><a href="#tanz">Tanzania</a></li>
+              <li><a href="#ghana">Ghana</a></li>
+              <li><a href="#algeria">Algeria</a></li>
             </ul>
           </li>
+          
         </ul>
       </div>
     </div>
@@ -50,38 +50,38 @@
         <div id="top" class="container-fluid">
           <h1 style="font-size: 200px; color: white">AFRICA</h1>
               
-                  <span><li style="color:white"><a style="color:#503D3F;" href="#china">Morocco</a></li></span>
-                  <span><li style="color:white"><a style="color:#503D3F;" href="#thailand">Tunisia</a></li style="color:white"></span>
-                  <span><li style="color:white"><a style="color:#503D3F;" href="#japan">Tanzania </a></li></span>
-                  <span><li style="color:white"><a style="color:#503D3F;" href="#india">Ghana</a></li></span>
-                  <span><li style="color:white"><a style="color:#503D3F;" href="#sKorea">Algeria</a></li></span>
+                  <span><li style="color:white"><a style="color:#503D3F;" href="#morocco">Morocco</a></li></span>
+                  <span><li style="color:white"><a style="color:#503D3F;" href="#tunisia">Tunisia</a></li style="color:white"></span>
+                  <span><li style="color:white"><a style="color:#503D3F;" href="#tanz">Tanzania </a></li></span>
+                  <span><li style="color:white"><a style="color:#503D3F;" href="#ghana">Ghana</a></li></span>
+                  <span><li style="color:white"><a style="color:#503D3F;" href="#algeria">Algeria</a></li></span>
 
         </div>
 
 <!-- MOROCCO -->
 
-           <div id="china" class="container-fluid">  
+           <div id="morocco" class="container-fluid">  
               <div class="country" id="moroccoCSS">
                 <div class="circle">
                   <div class="names">
 
                     <h1>Morocco</h1>
 
-                    <span  onclick="chinaInfoClick()" >info </span>
+                    <span  onclick="infoToggleOn(morrocoComment, morrocoInfo)" >info </span>
                     <span>|</span>
-                    <span onclick="chinaCommentClick()"> comments</span>
+                    <span onclick="commentToggleOn(moroccoComment, moroccoInfo)"> comments</span>
 
                   </div>
                 </div>
               </div>
 
               <div class="right">
-                <div id="chinaInfo">
+                <div id="moroccoInfo">
                   <h1 style="color: white;  text-align: center">Information</h1> 
                   <p>hi this is a fact</p>
                 </div>
               
-                <div id="chinaComment" class="commentSection"> 
+                <div id="moroccoComment" class="commentSection" style="display: none"> 
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
 
@@ -95,28 +95,28 @@
 <!-- 
 TUNISIA-->
 
-           <div id="thailand" class="container-fluid">  
+           <div id="tunisia" class="container-fluid">  
               <div class="country" id="tunisiaCSS">
                 <div class="circle">
                   <div class="names">
 
                     <h1>Tunisia</h1>
 
-                    <span  onclick="thailandInfoClick()" >info </span>
+                    <span  onclick="infoToggleOn(tunisiaComment, tunisiaInfo)" >info </span>
                     <span>|</span>
-                    <span onclick="thailandCommentClick()"> comments</span>
+                    <span onclick="commentToggleOn(tunisiaComment, tunisiaInfo)"> comments</span>
 
                   </div>
                 </div>
               </div>
 
               <div class="right">
-                <div id="thailandInfo">
+                <div id="tunisiaInfo">
                   <h1 style="color: white;  text-align: center">Information</h1> 
                   <p>hi this is a fact</p>
                 </div>
               
-                <div id="thailandComment" class="commentSection"> 
+                <div id="tunisiaComment" class="commentSection" style="display: none"> 
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
 
@@ -129,28 +129,28 @@ TUNISIA-->
 
 <!--TANZANIA-->
 
-      <div id="japan" class="container-fluid">  
+      <div id="tanz" class="container-fluid">  
               <div class="country" id="tanzCSS">
                 <div class="circle">
                   <div class="names">
 
                     <h1 >Tanzania</h1>
 
-                    <span  onclick="japanInfoClick()" >info </span>
+                    <span  onclick="infoToggleOn(tanzComment, tanzInfo)" >info </span>
                     <span>|</span>
-                    <span onclick="japanCommentClick()"> comments</span>
+                    <span onclick="commentToggleOn(tanzComment, tanzInfo)"> comments</span>
 
                   </div>
                 </div>
               </div>
 
               <div class="right">
-                <div id="japanInfo">
+                <div id="tanzInfo">
                   <h1 style="color: white;  text-align: center">Information</h1> 
                   <p>hi this is a fact</p>
                 </div>
               
-                <div id="japanComment" class="commentSection"> 
+                <div id="tanzComment" class="commentSection" style="display: none"> 
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
 
@@ -163,28 +163,28 @@ TUNISIA-->
 
 <!-- GHANA-->
 
-      <div id="india" class="container-fluid">  
+      <div id="ghana" class="container-fluid">  
               <div class="country" id="ghanaCSS">
                 <div class="circle">
                   <div class="names">
 
                     <h1>Ghana</h1>
 
-                    <span  onclick="indiaInfoClick()" >info </span>
+                    <span  onclick="infoToggleOn(ghanaComment, ghanaInfo)" >info </span>
                     <span>|</span>
-                    <span onclick="indiaCommentClick()"> comments</span>
+                    <span onclick="commentToggleOn(ghanaComment, ghanaInfo)"> comments</span>
 
                   </div>
                 </div>
               </div>
 
               <div class="right">
-                <div id="indiaInfo">
+                <div id="ghanaInfo">
                   <h1 style="color: white;  text-align: center">Information</h1> 
                   <p>hi this is a fact</p>
                 </div>
               
-                <div id="indiaComment" class="commentSection"> 
+                <div id="ghanaComment" class="commentSection" style="display: none"> 
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
 
@@ -197,28 +197,28 @@ TUNISIA-->
 
 <!-- ALGERIA-->
 
-            <div id="sKorea" class="container-fluid">  
+            <div id="algeria" class="container-fluid">  
               <div class="country" id="algeriaCSS">
                 <div class="circle">
                   <div class="names">
 
                     <h1>Algeria</h1>
 
-                    <span  onclick="sKoreaInfoClick()" >info </span>
+                    <span  onclick="infoToggleOn(algeriaComment, algeriaInfo)" >info </span>
                     <span>|</span>
-                    <span onclick="sKoreaCommentClick()"> comments</span>
+                    <span onclick="commentToggleOn(algeriaComment, algeriaInfo)"> comments</span>
 
                   </div>
                 </div>
               </div>
 
               <div class="right">
-                <div id="sKoreaInfo">
+                <div id="algeriaInfo">
                   <h1 style="color: white;  text-align: center">Information</h1> 
                   <p>hi this is a fact</p>
                 </div>
               
-                <div id="sKoreaComment" class="commentSection"> 
+                <div id="algeriaComment" class="commentSection" style="display: none"> 
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
 

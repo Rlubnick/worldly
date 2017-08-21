@@ -49,9 +49,9 @@
           <li><a href="#japan">Mexico</a></li> -->
           <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Countries <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="#china">U.S.A.</a></li>
-              <li><a href="#thailand">Canada</a></li>
-              <li><a href="#japan">Mexico</a></li>
+              <li><a href="#usa">U.S.A.</a></li>
+              <li><a href="#canada">Canada</a></li>
+              <li><a href="#mexico">Mexico</a></li>
             </ul>
           </li>
         </ul>
@@ -75,28 +75,28 @@
 
 <!-- USA -->
 
-           <div id="china" class="container-fluid">  
+           <div id="usa" class="container-fluid">  
               <div class="country" id="usaCSS">
                 <div class="circle">
                   <div class="names">
 
                     <h1>U.S.A</h1>
-
-                    <span  onclick="chinaInfoClick()" >info </span>
+                    
+                    <span  onclick="infoToggleOn(usaComment, usaInfo)" >info </span>
                     <span>|</span>
-                    <span onclick="chinaCommentClick()"> comments</span>
+                    <span onclick="commentToggleOn(usaComment, usaInfo)"> comments</span>
 
                   </div>
                 </div>
               </div>
 
               <div class="right">
-                <div id="chinaInfo">
+                <div id="usaInfo">
                   <h1 style="color: white;  text-align: center">Information</h1> 
                   <p>hi this is a fact</p>
                 </div>
               
-                <div id="chinaComment" class="commentSection"> 
+                <div id="usaComment" class="commentSection" style="display: none"> 
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
 
@@ -110,28 +110,28 @@
 <!-- 
 CANADA -->
 
-           <div id="thailand" class="container-fluid">  
+           <div id="canada" class="container-fluid">  
               <div class="country" id="canadaCSS">
                 <div class="circle">
                   <div class="names">
 
                     <h1>Canada</h1>
 
-                    <span  onclick="thailandInfoClick()" >info </span>
+                    <span  onclick="infoToggleOn(canadaComment, canadaInfo)" >info </span>
                     <span>|</span>
-                    <span onclick="thailandCommentClick()"> comments</span>
+                    <span onclick="commentToggleOn(canadaComment, canadaInfo)"> comments</span>
 
                   </div>
                 </div>
               </div>
 
               <div class="right">
-                <div id="thailandInfo">
+                <div id="canadaInfo">
                   <h1 style="color: white;  text-align: center">Information</h1> 
                   <p>hi this is a fact</p>
                 </div>
               
-                <div id="thailandComment" class="commentSection"> 
+                <div id="canadaComment" class="commentSection" style="display: none"> 
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
 
@@ -144,28 +144,28 @@ CANADA -->
 
 <!-- MEXICO -->
 
-      <div id="japan" class="container-fluid">  
+      <div id="mexican" class="container-fluid">  
               <div class="country" id="mexicoCSS">
                 <div class="circle">
                   <div class="names">
 
                     <h1 >Mexico</h1>
 
-                    <span  onclick="japanInfoClick()" >info </span>
+                    <span  onclick="infoToggleOn(mexicoComment, mexicoInfo)" >info </span>
                     <span>|</span>
-                    <span onclick="japanCommentClick()"> comments</span>
+                    <span onclick="commentToggleOn(mexicoComment, mexicoInfo)"> comments</span>
 
                   </div>
                 </div>
               </div>
 
               <div class="right">
-                <div id="japanInfo">
+                <div id="mexicoInfo">
                   <h1 style="color: white;  text-align: center">Information</h1> 
                   <p>hi this is a fact</p>
                 </div>
               
-                <div id="japanComment" class="commentSection"> 
+                <div id="mexicoComment" class="commentSection" style="display: none"> 
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
 

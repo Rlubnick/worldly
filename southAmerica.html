@@ -28,18 +28,18 @@
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right" text-align= "right">
           <li><a href="#top">Back to Top </a></li>
-          <!-- <li><a href="#china">Peru</a></li>
-          <li><a href="#thailand">Brazil</a></li>
-          <li><a href="#japan">Chile</a></li>
-          <li><a href="#india">Costa Rica</a></li>
-           <li><a href="#sKorea">Argentina</a></li> -->
+          <!-- <li><a href="#peru">Peru</a></li>
+          <li><a href="#brazil">Brazil</a></li>
+          <li><a href="#chile">Chile</a></li>
+          <li><a href="#cr">Costa Rica</a></li>
+           <li><a href="#argentina">Argentina</a></li> -->
           <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Countries <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="#china">Peru</a></li>
-              <li><a href="#thailand">Brazil</a></li>
-              <li><a href="#japan">Chile</a></li>
-              <li><a href="#india">Costa Rica</a></li>
-              <li><a href="#sKorea">Argentina</a></li>
+              <li><a href="#peru">Peru</a></li>
+              <li><a href="#brazil">Brazil</a></li>
+              <li><a href="#chile">Chile</a></li>
+              <li><a href="#cr">Costa Rica</a></li>
+              <li><a href="#argentina">Argentina</a></li>
             </ul>
           </li>
         </ul>
@@ -53,38 +53,62 @@
         <div id="top" class="container-fluid">
           <h1 style="font-size: 150px; color: white">SOUTH AMERICA</h1>
               
-                  <span><li style="color:white"><a style="color:#503D3F;" href="#china">Peru</a></li></span>
-                  <span><li style="color:white"><a style="color:#503D3F;" href="#thailand">Brazil</a></li style="color:white"></span>
-                  <span><li style="color:white"><a style="color:#503D3F;" href="#japan">Chile </a></li></span>
-                  <span><li style="color:white"><a style="color:#503D3F;" href="#india">Costa Rica</a></li></span>
-                  <span><li style="color:white"><a style="color:#503D3F;" href="#sKorea">Argentina</a></li></span>
+                  <span><li style="color:white"><a style="color:#503D3F;" href="#peru">Peru</a></li></span>
+                  <span><li style="color:white"><a style="color:#503D3F;" href="#brazil">Brazil</a></li style="color:white"></span>
+                  <span><li style="color:white"><a style="color:#503D3F;" href="#chile">Chile </a></li></span>
+                  <span><li style="color:white"><a style="color:#503D3F;" href="#cr">Costa Rica</a></li></span>
+                  <span><li style="color:white"><a style="color:#503D3F;" href="#argentina">Argentina</a></li></span>
 
         </div>
 
 <!-- PERU -->
 
-           <div id="china" class="container-fluid">  
+           <div id="peru" class="container-fluid">  
               <div class="country" id="peruCSS">
                 <div class="circle">
                   <div class="names">
 
                     <h1>Peru</h1>
 
-                    <span  onclick="chinaInfoClick()" >info </span>
+                    <span  onclick="infoToggleOn(peruComment, peruInfo)" >info </span>
                     <span>|</span>
-                    <span onclick="chinaCommentClick()"> comments</span>
+                    <span onclick="commentToggleOn(peruComment, peruInfo)"> comments</span>
 
                   </div>
                 </div>
               </div>
 
               <div class="right">
-                <div id="chinaInfo">
+                <div id="peruInfo">
                   <h1 style="color: white;  text-align: center">Information</h1> 
-                  <p>hi this is a fact</p>
+                  
+                  <h3>Business</h3>
+                    <ul>
+                      <li></li>
+                      <li></li>
+                    </ul>
+
+                  <h3>Greetings</h3>
+                    <ul>
+                      <li></li>
+                      <li><li>
+                    </ul>
+
+                  <h3>Social Conditions</h3>
+                    <ul>
+                      <li></li>
+                    </ul>
+
+                  <h3>Attire</h3>
+                    <ul>
+                      <li></li>
+                      <li> </li>
+                    </ul>
+
+
                 </div>
               
-                <div id="chinaComment" class="commentSection"> 
+                <div id="peruComment" class="commentSection" style="display: none"> 
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
 
@@ -98,28 +122,51 @@
 <!-- 
 BRAZIL -->
 
-           <div id="thailand" class="container-fluid">  
+           <div id="brazil" class="container-fluid">  
               <div class="country" id="brazilCSS">
                 <div class="circle">
                   <div class="names">
 
                     <h1>Brazil</h1>
 
-                    <span  onclick="thailandInfoClick()" >info </span>
+                    <span  onclick="infoToggleOn(brazilComment, brazilInfo)" >info </span>
                     <span>|</span>
-                    <span onclick="thailandCommentClick()"> comments</span>
+                    <span onclick="commentToggleOn(brazilComment, brazilInfo)"> comments</span>
 
                   </div>
                 </div>
               </div>
 
               <div class="right">
-                <div id="thailandInfo">
+                <div id="brazilInfo">
                   <h1 style="color: white;  text-align: center">Information</h1> 
-                  <p>hi this is a fact</p>
+                  
+                  <h3>Business</h3>
+                    <ul>
+                      <li></li>
+                      <li></li>
+                    </ul>
+
+                  <h3>Greetings</h3>
+                    <ul>
+                      <li></li>
+                      <li><li>
+                    </ul>
+
+                  <h3>Social Conditions</h3>
+                    <ul>
+                      <li></li>
+                    </ul>
+
+                  <h3>Attire</h3>
+                    <ul>
+                      <li>If a foreign woman wants to blend in, she should avoid wearing formal, conservative clothing</li>
+                      <li> </li>
+                    </ul>
+
                 </div>
               
-                <div id="thailandComment" class="commentSection"> 
+                <div id="brazilComment" class="commentSection" style="display: none"> 
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
 
@@ -132,28 +179,52 @@ BRAZIL -->
 
 <!-- CHILE -->
 
-      <div id="japan" class="container-fluid">  
+      <div id="chile" class="container-fluid">  
               <div class="country" id="chileCSS">
                 <div class="circle">
                   <div class="names">
 
                     <h1 >Chile</h1>
 
-                    <span  onclick="japanInfoClick()" >info </span>
+                    <span  onclick="infoToggleOn(chileComment, chileInfo)" >info </span>
                     <span>|</span>
-                    <span onclick="japanCommentClick()"> comments</span>
+                    <span onclick="commentToggleOn(chileComment, chileInfo)"> comments</span>
 
                   </div>
                 </div>
               </div>
 
               <div class="right">
-                <div id="japanInfo">
+                <div id="chileInfo">
                   <h1 style="color: white;  text-align: center">Information</h1> 
-                  <p>hi this is a fact</p>
+                  
+                  <h3>Business</h3>
+                    <ul>
+                      <li></li>
+                      <li></li>
+                    </ul>
+
+                  <h3>Greetings</h3>
+                    <ul>
+                      <li></li>
+                      <li><li>
+                    </ul>
+
+                  <h3>Social Conditions</h3>
+                    <ul>
+                      <li></li>
+                    </ul>
+
+                  <h3>Attire</h3>
+                    <ul>
+                      <li></li>
+                      <li> </li>
+                    </ul>
+
+
                 </div>
               
-                <div id="japanComment" class="commentSection"> 
+                <div id="chileComment" class="commentSection" style="display: none"> 
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
 
@@ -166,28 +237,52 @@ BRAZIL -->
 
 <!-- COSTA RICA-->
 
-      <div id="india" class="container-fluid">  
+      <div id="cr" class="container-fluid">  
               <div class="country" id="crCSS">
                 <div class="circle">
                   <div class="names">
 
                     <h1>Costa Rica</h1>
 
-                    <span  onclick="indiaInfoClick()" >info </span>
+                    <span  onclick="infoToggleOn(crComment, crInfo)" >info </span>
                     <span>|</span>
-                    <span onclick="indiaCommentClick()"> comments</span>
+                    <span onclick="commentToggleOn(crComment, crInfo)"> comments</span>
 
                   </div>
                 </div>
               </div>
 
               <div class="right">
-                <div id="indiaInfo">
+                <div id="crInfo">
                   <h1 style="color: white;  text-align: center">Information</h1> 
-                  <p>hi this is a fact</p>
+                  
+                  <h3>Business</h3>
+                    <ul>
+                      <li></li>
+                      <li></li>
+                    </ul>
+
+                  <h3>Greetings</h3>
+                    <ul>
+                      <li></li>
+                      <li><li>
+                    </ul>
+
+                  <h3>Social Conditions</h3>
+                    <ul>
+                      <li></li>
+                    </ul>
+
+                  <h3>Attire</h3>
+                    <ul>
+                      <li></li>
+                      <li> </li>
+                    </ul>
+
+
                 </div>
               
-                <div id="indiaComment" class="commentSection"> 
+                <div id="crComment" class="commentSection" style="display: none"> 
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
 
@@ -198,30 +293,57 @@ BRAZIL -->
               </div>
           </div>
 
-<!-- ARGENTIna-->
+<!-- ARGENTINA-->
 
-            <div id="sKorea" class="container-fluid">  
+            <div id="argentina" class="container-fluid">  
               <div class="country" id="argentinaCSS">
                 <div class="circle">
                   <div class="names">
 
                     <h1>Argentina</h1>
 
-                    <span  onclick="sKoreaInfoClick()" >info </span>
+                    <span  onclick="infoToggleOn(argentinaComment, argentinaInfo)" >info </span>
                     <span>|</span>
-                    <span onclick="sKoreaCommentClick()"> comments</span>
+                    <span onclick="commentToggleOn(argentinaComment, argentinaInfo)"> comments</span>
 
                   </div>
                 </div>
               </div>
 
               <div class="right">
-                <div id="sKoreaInfo">
+                <div id="argentinaInfo">
                   <h1 style="color: white;  text-align: center">Information</h1> 
-                  <p>hi this is a fact</p>
+                 
+                  <h3>Business</h3>
+                    <ul>
+                      <li>Personal relationships should be made before business is done, some small talk is common before business talk.</li>
+                      <li>Negotiations are normally do not come easily; there will most likely be multiple meetings to settle a deal.</li>
+                      <li>Contracts are lengthy and detailed, everything will be in writing.</li>
+                      <li>Meetings should be confirmed a week in advance</li>
+                    </ul>
+
+                  <h3>Greetings</h3>
+                    <ul>
+                      <li>Handshakes are common when first meeting someone.</li>
+                      <li>Titles are extremely important, especially in the presence of an elder. (Ex.Teacher="Professor", One with a PhD="Dr.", Lawyers="Abogado")</li>
+                      <li>Greeting with a hug or kiss is considered a compliment to a woman</li>
+                    </ul>
+
+                  <h3>Social Conditions</h3>
+                    <ul>
+                      <li>Flirtatious commentary and “catcalling” is very common. Men may call out to you while walking down the street.</li>
+                    </ul>
+
+                  <h3>Attire</h3>
+                    <ul>
+                      <li>It is common to dress up a little more, even for casual events.</li>
+                      <li>Women dress in more feminine clothing and will typically not wear sneakers or athletic wear in general. </li>
+                    </ul>
+
+
                 </div>
               
-                <div id="sKoreaComment" class="commentSection"> 
+                <div id="argentinaComment" class="commentSection" style="display: none"> 
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
 
