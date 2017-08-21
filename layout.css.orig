@@ -274,7 +274,10 @@
     padding-left: 10%;
     padding-right: 10%;
   }
-
+<<<<<<< HEAD
+  h3{
+    font-color:navy;
+=======
   #israel {
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     font-weight: 100;
@@ -543,4 +546,5 @@
     height:650px;
     color: #fff; 
     background-color: lightgrey;
+>>>>>>> 40171c4dc53f4b91cc4fee58c12457f84f457093
   }
