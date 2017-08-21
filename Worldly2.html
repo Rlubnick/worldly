@@ -1,0 +1,184 @@
+<html>
+<head>
+  <title>Worldly</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  body {
+  position: relative; 
+ }
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 25%;
+ /* height: 25%;*/
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+  
+  /*#section1 {padding-top:50px;height:500px;color: black; background-color:#ADD8E6;font-size:100;}*/
+  #section2 {padding-top:50px;height:700px;color: black; background-color: #B0D7FF;}
+ 
+ /* #section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+  #section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
+  #section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}*/*/
+  </style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#section1">Section 1</a></li>
+          <li><a href="#section2">Section 2</a></li>
+          <li><a href="#section3">Section 3</a></li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#section41">Section 4-1</a></li>
+              <li><a href="#section42">Section 4-2</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav> 
+<div id="section2" class="container-fluid">
+<h1 class="text-center">Meet The Team!</h1>   
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="http://rethinkrentals.com/wp-content/uploads/2015/12/iStock_000019679160XSmall-300x203.jpg" style="width:100%">
+      <div class="container">
+        <h2><a href="https://www.youtube.com/" target="_blank">Rebekah L</h2>
+        <!-- <p class="title">CEO & Founder</p> -->
+        <p>Some text that describes me lorem 
+        lorem.</p>
+        <p>example@example.com</p>
+      <!-- <button class="button">Contact</button> -->
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+     <img src="http://rethinkrentals.com/wp-content/uploads/2015/12/iStock_000019679160XSmall-300x203.jpg" style="width:100%">
+      <div class="container">
+        <h2><a href="https://www.youtube.com/" target="_blank">Angela Fu</h2>
+        <!-- <p class="title">Art Director</p> -->
+        <p>Some text that describes me lorem
+        lorem.</p>
+        <p>example@example.com</p> 
+       <!--  <p><button class="button">Contact</button></p> -->
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="http://rethinkrentals.com/wp-content/uploads/2015/12/iStock_000019679160XSmall-300x203.jpg"  style="width:100%">
+      <div class="container">
+        <h2><a href="https://www.youtube.com/" target="_blank">Christine Liu</h2>
+        <!-- <p class="title">Designer</p> -->
+        <p>Some text that describes me lorem 
+        lorem.</p>
+        <p>example@example.com</p>
+        
+        <!-- <p><button class="button">Contact</button></p> -->
+
+      </div>
+    </div>
+  </div>
+   <div class="column">
+    <div class="card">
+      <img src="http://rethinkrentals.com/wp-content/uploads/2015/12/iStock_000019679160XSmall-300x203.jpg"  style="width:100%">
+      <div class="container">
+        
+        <h2> Abigail Cumberbatch</h2>
+       <!--  <p class="title">Designer</p> -->
+        <p>Some text that describes me lorem 
+        lorem.</p>
+        <p>cumberbatchabigail@gmail.com</p> 
+        <!-- <p><button class="button">Contact</button></p> -->
+        </div>
+        </div>
+</div>
+  <!--  <div class="column">
+    <div class="card">
+      <img src="http://rethinkrentals.com/wp-content/uploads/2015/12/iStock_000019679160XSmall-300x203.jpg" style="width:100%">
+      <div class="container">
+        <h2>John Doe</h2>
+        <p class="title">Designer</p>
+        <p>Some text that describes me lorem
+         lorem.</p>
+        <p>example@example.com</p>
+        <!-<p><button class="button">Contact</button></p> -->
+  <!--     </div>
+    </div>
+  </div> -->
+  </div>
+
+   
+</body>
+</html>
