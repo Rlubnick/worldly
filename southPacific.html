@@ -79,9 +79,9 @@
 
                     <h1>Australia</h1>
 
-                    <span  onclick="australiaInfoClick()" >info </span>
+                    <span  onclick="infoClick(australiaComment, australiaInfo)" >info </span>
                     <span>|</span>
-                    <span onclick="australiaCommentClick()"> comments</span>
+                    <span onclick="commentClick(australiaComment, australiaInfo)"> comments</span>
 
                   </div>
                 </div>
@@ -93,7 +93,7 @@
                   <p>hi this is a fact</p>
                 </div>
               
-                <div id="australiaComment" class="commentSection"> 
+                <div id="australiaComment" class="commentSection" style="display: none"> 
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
                      <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/southPacific/turkeyComment.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>

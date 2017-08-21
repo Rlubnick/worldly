@@ -18,6 +18,16 @@
 	  	document.getElementById("chinaComment").style.display = 'inline';
 	  }
 
+	  function commentClick(commentId, infoId){
+	  	commentId.style.display = 'inline';
+	  	infoId.style.display = 'none';
+	  }
+
+	  function infoClick(commentId, infoId){
+	  	commentId.style.display = 'none';
+	  	infoId.style.display = 'inline';
+	  }
+
 // THAILAND
 
  function thailandStart(){
