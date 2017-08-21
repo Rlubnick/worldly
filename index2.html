@@ -18,9 +18,10 @@
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10";
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appID=810497285794451&version=v2.0";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
+
 
 <div id="container"></div><nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
@@ -116,7 +117,8 @@
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
 
-                  <div  id="entry">
+                  <div  style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/index2/chinaComment.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
+                  <div  id="entry"> 
                     
                   </div>
                 </div>
@@ -150,6 +152,8 @@ THAILAND -->
                 <div id="thailandComment" class="commentSection"> 
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
+                   <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/index2/thailandComment.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
+                  
 
                   <div  id="entry">
                     
@@ -184,7 +188,8 @@ THAILAND -->
                 <div id="japanComment" class="commentSection"> 
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
-                  <p><div class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/index2.html#" data-width="300px" data-numposts="50"></div></p>
+                   <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com//japanComment.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
+                
 
                   <div  id="entry">
                     
@@ -219,6 +224,8 @@ THAILAND -->
                 <div id="indiaComment" class="commentSection"> 
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
+                   <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/index2/indiaComment.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
+                  <div  id="entry"> 
 
                   <div  id="entry">
                     
@@ -226,6 +233,7 @@ THAILAND -->
                 </div>
               </div>
           </div>
+        </div>
 
 <!-- SOUTH KOREA-->
 
@@ -253,12 +261,15 @@ THAILAND -->
                 <div id="sKoreaComment" class="commentSection"> 
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
+                   <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/index2/sKoreaComment.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
+                  <div  id="entry"> 
 
                   <div  id="entry">
                   </div>
                 </div>
               </div>
           </div>
+        </div>
                     
 <!-- HONG KONG-->
 
@@ -286,12 +297,197 @@ THAILAND -->
                 <div id="hkComment" class="commentSection"> 
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
+                   <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/index2/hkComment.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
+                  <div  id="entry"> 
 
                   <div  id="entry">
                   </div>
                 </div>
               </div>
           </div>
+        </div>
+
+<!-- INDONESIA-->
+
+            <div id="indo" class="container-fluid">  
+              <div class="country" id="indoCSS">
+                <div class="circle">
+                  <div class="names">
+
+                    <h1>Indonesia</h1>
+
+                    <span  onclick="indoClick()" >info </span>
+                    <span>|</span>
+                    <span onclick="indoCommentClick()"> comments</span>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="right">
+                <div id="indoInfo">
+                  <h1 style="color: white;  text-align: center">Information</h1> 
+                  <p>hi this is a fact</p>
+                </div>
+              
+                <div id="indoComment" class="commentSection"> 
+
+                  <h1 style="color: white;  text-align: center">Comments</h1>
+                   <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/index2/indoComment.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
+                  <div  id="entry"> 
+
+                  <div  id="entry">
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+
+<!-- VIETNAM-->
+
+            <div id="vietnam" class="container-fluid">  
+              <div class="country" id="vietnamCSS">
+                <div class="circle">
+                  <div class="names">
+
+                    <h1>Vietnam</h1>
+
+                    <span  onclick="vietnamClick()" >info </span>
+                    <span>|</span>
+                    <span onclick="vietnamCommentClick()"> comments</span>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="right">
+                <div id="vietnamInfo">
+                  <h1 style="color: white;  text-align: center">Information</h1> 
+                  <p>hi this is a fact</p>
+                </div>
+              
+                <div id="vietnamComment" class="commentSection"> 
+
+                  <h1 style="color: white;  text-align: center">Comments</h1>
+                   <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/index2/vietnamComment.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
+                  <div  id="entry"> 
+
+                  <div  id="entry">
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+          
+<!-- MALAYSIA-->
+
+            <div id="malaysia" class="container-fluid">  
+              <div class="country" id="malaysiaCSS">
+                <div class="circle">
+                  <div class="names">
+
+                    <h1>Malaysia</h1>
+
+                    <span  onclick="malaysiaClick()" >info </span>
+                    <span>|</span>
+                    <span onclick="malaysiaCommentClick()"> comments</span>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="right">
+                <div id="malaysiaInfo">
+                  <h1 style="color: white;  text-align: center">Information</h1> 
+                  <p>hi this is a fact</p>
+                </div>
+              
+                <div id="malaysiaComment" class="commentSection"> 
+
+                  <h1 style="color: white;  text-align: center">Comments</h1>
+                   <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/index2/malaysiaComment.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
+                  <div  id="entry"> 
+
+                  <div  id="entry">
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+          
+<!-- SINGAPORE-->
+
+            <div id="sing" class="container-fluid">  
+              <div class="country" id="singCSS">
+                <div class="circle">
+                  <div class="names">
+
+                    <h1>Singapore</h1>
+
+                    <span  onclick="singClick()" >info </span>
+                    <span>|</span>
+                    <span onclick="singCommentClick()"> comments</span>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="right">
+                <div id="singInfo">
+                  <h1 style="color: white;  text-align: center">Information</h1> 
+                  <p>hi this is a fact</p>
+                </div>
+              
+                <div id="singComment" class="commentSection"> 
+
+                  <h1 style="color: white;  text-align: center">Comments</h1>
+                   <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/index2/singComment.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
+                  <div  id="entry"> 
+
+                  <div  id="entry">
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+         
+
+<!-- TAIWAN-->
+
+            <div id="taiwan" class="container-fluid">  
+              <div class="country" id="taiwanCSS">
+                <div class="circle">
+                  <div class="names">
+
+                    <h1>Taiwan</h1>
+
+                    <span  onclick="taiwanClick()" >info </span>
+                    <span>|</span>
+                    <span onclick="taiwanCommentClick()"> comments</span>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="right">
+                <div id="taiwanInfo">
+                  <h1 style="color: white;  text-align: center">Information</h1> 
+                  <p>hi this is a fact</p>
+                </div>
+              
+                <div id="taiwanComment" class="commentSection"> 
+
+                  <h1 style="color: white;  text-align: center">Comments</h1>
+                   <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/index2/taiwanComment.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
+                  <div  id="entry"> 
+
+                  <div  id="entry">
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+         
 
               
 
