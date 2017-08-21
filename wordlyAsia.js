@@ -621,4 +621,106 @@ function chile(){
 
 	  	document.getElementById("fijiComment").style.display = 'inline';
 	  }
+	  //FIJI
+		function fiji(){
+	 	    document.getElementById("fijiInfo").style.display = 'inline'; 
+	      	document.getElementById("fijiComment").style.display = 'none';
+
+	 }
+	 function fijiInfoClick(){
+	 	console.log(document.getElementById("fijiInfo"))
+	    document.getElementById("fijiInfo").style.display = 'inline'; 
+	      	document.getElementById("fijiComment").style.display = 'none';
+
+	  }
+	  function fijiCommentClick(){
+	  	    document.getElementById("fijiInfo").style.display = 'none'; 
+
+	  	document.getElementById("fijiComment").style.display = 'inline';
+	  }
+	  //TAIWAN
+		function taiwan(){
+	 	    document.getElementById("taiwanInfo").style.display = 'inline'; 
+	      	document.getElementById("taiwanomment").style.display = 'none';
+
+	 }
+	 function taiwanInfoClick(){
+	 	console.log(document.getElementById("taiwanInfo"))
+	    document.getElementById("taiwanInfo").style.display = 'inline'; 
+	      	document.getElementById("taiwanComment").style.display = 'none';
+
+	  }
+	  function taiwanCommentClick(){
+	  	    document.getElementById("taiwanInfo").style.display = 'none'; 
+
+	  	document.getElementById("taiwanComment").style.display = 'inline';
+	  }
+	  //SINGAPORE
+		function sing(){
+	 	    document.getElementById("singInfo").style.display = 'inline'; 
+	      	document.getElementById("singComment").style.display = 'none';
+
+	 }
+	 function singInfoClick(){
+	 	console.log(document.getElementById("singInfo"))
+	    document.getElementById("singInfo").style.display = 'inline'; 
+	      	document.getElementById("singComment").style.display = 'none';
+
+	  }
+	  function singCommentClick(){
+	  	    document.getElementById("singInfo").style.display = 'none'; 
+
+	  	document.getElementById("singComment").style.display = 'inline';
+	  }
+	  //MALAYSIA
+		function malaysia(){
+	 	    document.getElementById("malaysiaInfo").style.display = 'inline'; 
+	      	document.getElementById("malaysiaComment").style.display = 'none';
+
+	 }
+	 function malaysiaInfoClick(){
+	 	console.log(document.getElementById("malaysiaInfo"))
+	    document.getElementById("malaysiaInfo").style.display = 'inline'; 
+	      	document.getElementById("malaysiaComment").style.display = 'none';
+
+	  }
+	  function malaysiaCommentClick(){
+	  	    document.getElementById("malaysiaInfo").style.display = 'none'; 
+
+	  	document.getElementById("malaysiaComment").style.display = 'inline';
+	  }
+	  //VIETNAM
+		function vietnam(){
+	 	    document.getElementById("vietnamInfo").style.display = 'inline'; 
+	      	document.getElementById("vietnamComment").style.display = 'none';
+
+	 }
+	 function vietnamClick(){
+	 	console.log(document.getElementById("vietnamInfo"))
+	    document.getElementById("vietnamInfo").style.display = 'inline'; 
+	      	document.getElementById("vietnamComment").style.display = 'none';
+
+	  }
+	  function vietnamCommentClick(){
+	  	    document.getElementById("vietnamInfo").style.display = 'none'; 
+
+	  	document.getElementById("vietnamComment").style.display = 'inline';
+	  }
+	  //INDONESIA
+		function indo(){
+	 	    document.getElementById("indoInfo").style.display = 'inline'; 
+	      	document.getElementById("indoComment").style.display = 'none';
+
+	 }
+	 function indoInfoClick(){
+	 	console.log(document.getElementById("indoInfo"))
+	    document.getElementById("indoInfo").style.display = 'inline'; 
+	      	document.getElementById("indoComment").style.display = 'none';
+
+	  }
+	  function indoCommentClick(){
+	  	    document.getElementById("indoInfo").style.display = 'none'; 
+
+	  	document.getElementById("indoComment").style.display = 'inline';
+	  }
 
