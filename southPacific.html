@@ -13,6 +13,14 @@
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 <div id="container"></div><nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
@@ -24,6 +32,7 @@
       </button>
        <a class="navbar-brand" href="http://gwc-worldly.herokuapp.com/index.html"><img src="images/logoReal.png" width="125px" height="125px"></a>
     </div>
+    
     <div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right" text-align= "right">
@@ -35,11 +44,11 @@
            <li><a href="#sKorea">Fiji</a></li> -->
           <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Countries <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="#china">Australia</a></li>
-              <li><a href="#thailand">New Zealand</a></li>
-              <li><a href="#japan">New Guinea </a></li>
-              <li><a href="#india">Tasmania</a></li>
-              <li><a href="#sKorea">Fiji</a></li>
+              <li><a href="#australia">Australia</a></li>
+              <li><a href="#nz">New Zealand</a></li>
+              <li><a href="#ng">New Guinea </a></li>
+              <li><a href="#tas">Tasmania</a></li>
+              <li><a href="#fiji">Fiji</a></li>
             </ul>
           </li>
         </ul>
@@ -53,41 +62,41 @@
         <div id="top" class="container-fluid">
           <h1 style="font-size: 150px; color: white">SOUTH PACIFIC</h1>
               
-                  <span><li style="color:white"><a style="color:#503D3F;" href="#china">Australia</a></li></span>
-                  <span><li style="color:white"><a style="color:#503D3F;" href="#thailand">New Nealand </a></li style="color:white"></span>
-                  <span><li style="color:white"><a style="color:#503D3F;" href="#japan">New Guinea </a></li></span>
-                  <span><li style="color:white"><a style="color:#503D3F;" href="#india">Tasmania</a></li></span>
-                  <span><li style="color:white"><a style="color:#503D3F;" href="#sKorea">Fiji</a></li></span>
+                  <span><li style="color:white"><a style="color:#503D3F;" href="#australia">Australia</a></li></span>
+                  <span><li style="color:white"><a style="color:#503D3F;" href="#nz">New Nealand </a></li style="color:white"></span>
+                  <span><li style="color:white"><a style="color:#503D3F;" href="#ng">New Guinea </a></li></span>
+                  <span><li style="color:white"><a style="color:#503D3F;" href="#tas">Tasmania</a></li></span>
+                  <span><li style="color:white"><a style="color:#503D3F;" href="#fiji">Fiji</a></li></span>
 
         </div>
 
 <!-- AUSTRALIA -->
 
-           <div id="china" class="container-fluid">  
+           <div id="australia" class="container-fluid">  
               <div class="country" id="australiaCSS">
                 <div class="circle">
                   <div class="names">
 
                     <h1>Australia</h1>
 
-                    <span  onclick="chinaInfoClick()" >info </span>
+                    <span  onclick="infoClick(australiaComment, australiaInfo)" >info </span>
                     <span>|</span>
-                    <span onclick="chinaCommentClick()"> comments</span>
+                    <span onclick="commentClick(australiaComment, australiaInfo)"> comments</span>
 
                   </div>
                 </div>
               </div>
 
               <div class="right">
-                <div id="chinaInfo">
+                <div id="australiaInfo">
                   <h1 style="color: white;  text-align: center">Information</h1> 
                   <p>hi this is a fact</p>
                 </div>
               
-                <div id="chinaComment" class="commentSection"> 
+                <div id="australiaComment" class="commentSection" style="display: none"> 
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
-
+                     <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/southPacific/turkeyComment.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
                   <div  id="entry">
                     
                   </div>
@@ -98,31 +107,31 @@
 <!-- 
 NEW ZEALAND -->
 
-           <div id="thailand" class="container-fluid">  
+           <div id="nz" class="container-fluid">  
               <div class="country" id="nzCSS">
                 <div class="circle">
                   <div class="names">
 
                     <h1>New Zealand</h1>
 
-                    <span  onclick="thailandInfoClick()" >info </span>
+                    <span  onclick="nzInfoClick()" >info </span>
                     <span>|</span>
-                    <span onclick="thailandCommentClick()"> comments</span>
-
+                    <span onclick="nzCommentClick()"> comments</span>
+                      
                   </div>
                 </div>
               </div>
 
               <div class="right">
-                <div id="thailandInfo">
+                <div id="nzInfo">
                   <h1 style="color: white;  text-align: center">Information</h1> 
                   <p>hi this is a fact</p>
                 </div>
               
-                <div id="thailandComment" class="commentSection"> 
+                <div id="nzComment" class="commentSection"> 
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
-
+                    <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/southPacific/nzComment.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
                   <div  id="entry">
                     
                   </div>
@@ -132,31 +141,31 @@ NEW ZEALAND -->
 
 <!-- NEW GUINEA -->
 
-      <div id="japan" class="container-fluid">  
+      <div id="ng" class="container-fluid">  
               <div class="country" id="ngCSS">
                 <div class="circle">
                   <div class="names">
 
                     <h1 >New Guinea</h1>
 
-                    <span  onclick="japanInfoClick()" >info </span>
+                    <span  onclick="ngInfoClick()" >info </span>
                     <span>|</span>
-                    <span onclick="japanCommentClick()"> comments</span>
+                    <span onclick="ngCommentClick()"> comments</span>
 
                   </div>
                 </div>
               </div>
 
               <div class="right">
-                <div id="japanInfo">
+                <div id="ngInfo">
                   <h1 style="color: white;  text-align: center">Information</h1> 
                   <p>hi this is a fact</p>
                 </div>
               
-                <div id="japanComment" class="commentSection"> 
+                <div id="ngComment" class="commentSection"> 
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
-
+                    <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/southPacific/ngComment.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
                   <div  id="entry">
                     
                   </div>
@@ -166,31 +175,31 @@ NEW ZEALAND -->
 
 <!-- TASMANIA-->
 
-      <div id="india" class="container-fluid">  
+      <div id="tas" class="container-fluid">  
               <div class="country" id="tasCSS">
                 <div class="circle">
                   <div class="names">
 
                     <h1>Tasmania</h1>
 
-                    <span  onclick="indiaInfoClick()" >info </span>
+                    <span  onclick="tasInfoClick()" >info </span>
                     <span>|</span>
-                    <span onclick="indiaCommentClick()"> comments</span>
+                    <span onclick="tasCommentClick()"> comments</span>
 
                   </div>
                 </div>
               </div>
 
               <div class="right">
-                <div id="indiaInfo">
+                <div id="tasInfo">
                   <h1 style="color: white;  text-align: center">Information</h1> 
                   <p>hi this is a fact</p>
                 </div>
               
-                <div id="indiaComment" class="commentSection"> 
+                <div id="tasComment" class="commentSection"> 
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
-
+                    <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/southPacif/tasComment.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
                   <div  id="entry">
                     
                   </div>
@@ -200,31 +209,31 @@ NEW ZEALAND -->
 
 <!-- FIJI-->
 
-            <div id="sKorea" class="container-fluid">  
+            <div id="fiji" class="container-fluid">  
               <div class="country" id="fijiCSS">
                 <div class="circle">
                   <div class="names">
 
                     <h1>Fiji</h1>
 
-                    <span  onclick="sKoreaInfoClick()" >info </span>
+                    <span  onclick="fijiInfoClick()" >info </span>
                     <span>|</span>
-                    <span onclick="sKoreaCommentClick()"> comments</span>
+                    <span onclick="fijiCommentClick()"> comments</span>
 
                   </div>
                 </div>
               </div>
 
               <div class="right">
-                <div id="sKoreaInfo">
+                <div id="fijiInfo">
                   <h1 style="color: white;  text-align: center">Information</h1> 
                   <p>hi this is a fact</p>
                 </div>
               
-                <div id="sKoreaComment" class="commentSection"> 
+                <div id="fijiComment" class="commentSection"> 
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
-
+                    <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/southPacific/fijiComment.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
                   <div  id="entry">
                     
                   </div>
