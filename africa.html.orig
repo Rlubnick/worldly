@@ -14,6 +14,16 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appID=810497285794451&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
 <div id="container"></div><nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -28,8 +38,17 @@
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
           <li><a href="#top">Back to Top </a></li>
+<<<<<<< HEAD
+          <li><a href="#morocco">Morocco</a></li>
+          <li><a href="#tunisia">Tunisia</a></li>
+          <li><a href="#tanz">Tanzania</a></li>
+          <li><a href="#ghana">Ghana</a></li>
+           <li><a href="#algeria">Algeria</a></li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>
+=======
 
           <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Countries <span class="caret"></span></a>
+>>>>>>> addingMoreInfo
             <ul class="dropdown-menu">
               <li><a href="#morocco">Morocco</a></li>
               <li><a href="#tunisia">Tunisia</a></li>
@@ -67,9 +86,15 @@
 
                     <h1>Morocco</h1>
 
+<<<<<<< HEAD
+                    <span  onclick="moroccoInfoClick()" >info </span>
+                    <span>|</span>
+                    <span onclick="moroccoCommentClick()"> comments</span>
+=======
                     <span  onclick="infoToggleOn(morrocoComment, morrocoInfo)" >info </span>
                     <span>|</span>
                     <span onclick="commentToggleOn(moroccoComment, moroccoInfo)"> comments</span>
+>>>>>>> addingMoreInfo
 
                   </div>
                 </div>
@@ -81,10 +106,14 @@
                   <p>hi this is a fact</p>
                 </div>
               
+<<<<<<< HEAD
+                <div id="moroccoComment" class="commentSection"> 
+=======
                 <div id="moroccoComment" class="commentSection" style="display: none"> 
+>>>>>>> addingMoreInfo
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
-
+                    <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/africa/moroccoComments.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
                   <div  id="entry">
                     
                   </div>
@@ -102,9 +131,15 @@ TUNISIA-->
 
                     <h1>Tunisia</h1>
 
+<<<<<<< HEAD
+                    <span  onclick="tunisiaInfoClick()" >info </span>
+                    <span>|</span>
+                    <span onclick="tunisiaCommentClick()"> comments</span>
+=======
                     <span  onclick="infoToggleOn(tunisiaComment, tunisiaInfo)" >info </span>
                     <span>|</span>
                     <span onclick="commentToggleOn(tunisiaComment, tunisiaInfo)"> comments</span>
+>>>>>>> addingMoreInfo
 
                   </div>
                 </div>
@@ -116,10 +151,14 @@ TUNISIA-->
                   <p>hi this is a fact</p>
                 </div>
               
+<<<<<<< HEAD
+                <div id="tunisiaComment" class="commentSection"> 
+=======
                 <div id="tunisiaComment" class="commentSection" style="display: none"> 
+>>>>>>> addingMoreInfo
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
-
+                    <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/africa/tunisiaComments.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
                   <div  id="entry">
                     
                   </div>
@@ -136,9 +175,15 @@ TUNISIA-->
 
                     <h1 >Tanzania</h1>
 
+<<<<<<< HEAD
+                    <span  onclick="tanzInfoClick()" >info </span>
+                    <span>|</span>
+                    <span onclick="tanzCommentClick()"> comments</span>
+=======
                     <span  onclick="infoToggleOn(tanzComment, tanzInfo)" >info </span>
                     <span>|</span>
                     <span onclick="commentToggleOn(tanzComment, tanzInfo)"> comments</span>
+>>>>>>> addingMoreInfo
 
                   </div>
                 </div>
@@ -150,9 +195,14 @@ TUNISIA-->
                   <p>hi this is a fact</p>
                 </div>
               
+<<<<<<< HEAD
+                <div id="tanzComment" class="commentSection"> 
+=======
                 <div id="tanzComment" class="commentSection" style="display: none"> 
+>>>>>>> addingMoreInfo
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
+                    <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/africa/tanzComments.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
 
                   <div  id="entry">
                     
@@ -170,9 +220,15 @@ TUNISIA-->
 
                     <h1>Ghana</h1>
 
+<<<<<<< HEAD
+                    <span  onclick="ghanaInfoClick()" >info </span>
+                    <span>|</span>
+                    <span onclick="ghanaCommentClick()"> comments</span>
+=======
                     <span  onclick="infoToggleOn(ghanaComment, ghanaInfo)" >info </span>
                     <span>|</span>
                     <span onclick="commentToggleOn(ghanaComment, ghanaInfo)"> comments</span>
+>>>>>>> addingMoreInfo
 
                   </div>
                 </div>
@@ -184,10 +240,14 @@ TUNISIA-->
                   <p>hi this is a fact</p>
                 </div>
               
+<<<<<<< HEAD
+                <div id="ghanaComment" class="commentSection"> 
+=======
                 <div id="ghanaComment" class="commentSection" style="display: none"> 
+>>>>>>> addingMoreInfo
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
-
+                    <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/africa/ghanaComments.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
                   <div  id="entry">
                     
                   </div>
@@ -204,9 +264,15 @@ TUNISIA-->
 
                     <h1>Algeria</h1>
 
+<<<<<<< HEAD
+                    <span  onclick="algeriaInfoClick()" >info </span>
+                    <span>|</span>
+                    <span onclick="algeriaCommentClick()"> comments</span>
+=======
                     <span  onclick="infoToggleOn(algeriaComment, algeriaInfo)" >info </span>
                     <span>|</span>
                     <span onclick="commentToggleOn(algeriaComment, algeriaInfo)"> comments</span>
+>>>>>>> addingMoreInfo
 
                   </div>
                 </div>
@@ -218,10 +284,14 @@ TUNISIA-->
                   <p>hi this is a fact</p>
                 </div>
               
+<<<<<<< HEAD
+                <div id="algeriaComment" class="commentSection"> 
+=======
                 <div id="algeriaComment" class="commentSection" style="display: none"> 
+>>>>>>> addingMoreInfo
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
-
+                     <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/africa/algeriaComments.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
                   <div  id="entry">
                     
                   </div>

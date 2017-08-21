@@ -9,15 +9,6 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="layout.css">
 
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
@@ -49,6 +40,10 @@
           <li><a href="#japan">Mexico</a></li> -->
           <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Countries <span class="caret"></span></a>
             <ul class="dropdown-menu">
+<<<<<<< HEAD
+            <li><a href="#top">Back to top</a></li>
+=======
+>>>>>>> addingMoreInfo
               <li><a href="#usa">U.S.A.</a></li>
               <li><a href="#canada">Canada</a></li>
               <li><a href="#mexico">Mexico</a></li>
@@ -65,11 +60,10 @@
         <div id="top" class="container-fluid">
           <h1 style="font-size: 150px; color: white">NORTH AMERICA</h1>
               
-                  <span><li style="color:white"><a style="color:#503D3F;" href="#china">France</a></li></span>
-                  <span><li style="color:white"><a style="color:#503D3F;" href="#thailand">England</a></li style="color:white"></span>
-                  <span><li style="color:white"><a style="color:#503D3F;" href="#japan">Italy </a></li></span>
-                  <span><li style="color:white"><a style="color:#503D3F;" href="#india">Germany</a></li></span>
-                  <span><li style="color:white"><a style="color:#503D3F;" href="#sKorea">Greece Korea</a></li></span>
+                  <span><li style="color:white"><a style="color:#503D3F;" href="#usa">U.S.A.</a></li></span>
+                  <span><li style="color:white"><a style="color:#503D3F;" href="#canada">Canada</a></li style="color:white"></span>
+                  <span><li style="color:white"><a style="color:#503D3F;" href="#mexico">Mexico </a></li></span>
+         
 
         </div>
 
@@ -81,10 +75,17 @@
                   <div class="names">
 
                     <h1>U.S.A</h1>
+<<<<<<< HEAD
+
+                    <span  onclick="usaInfoClick()" >info </span>
+                    <span>|</span>
+                    <span onclick="usaCommentClick()"> comments</span>
+=======
                     
                     <span  onclick="infoToggleOn(usaComment, usaInfo)" >info </span>
                     <span>|</span>
                     <span onclick="commentToggleOn(usaComment, usaInfo)"> comments</span>
+>>>>>>> addingMoreInfo
 
                   </div>
                 </div>
@@ -96,10 +97,14 @@
                   <p>hi this is a fact</p>
                 </div>
               
+<<<<<<< HEAD
+                <div id="usaComment" class="commentSection"> 
+=======
                 <div id="usaComment" class="commentSection" style="display: none"> 
+>>>>>>> addingMoreInfo
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
-
+                    <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/northAmerica/usaComment.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
                   <div  id="entry">
                     
                   </div>
@@ -117,9 +122,15 @@ CANADA -->
 
                     <h1>Canada</h1>
 
+<<<<<<< HEAD
+                    <span  onclick="canadaInfoClick()" >info </span>
+                    <span>|</span>
+                    <span onclick="canadaCommentClick()"> comments</span>
+=======
                     <span  onclick="infoToggleOn(canadaComment, canadaInfo)" >info </span>
                     <span>|</span>
                     <span onclick="commentToggleOn(canadaComment, canadaInfo)"> comments</span>
+>>>>>>> addingMoreInfo
 
                   </div>
                 </div>
@@ -131,10 +142,14 @@ CANADA -->
                   <p>hi this is a fact</p>
                 </div>
               
+<<<<<<< HEAD
+                <div id="canadaComment" class="commentSection"> 
+=======
                 <div id="canadaComment" class="commentSection" style="display: none"> 
+>>>>>>> addingMoreInfo
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
-
+                    <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/northAmerica/canadaComment.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
                   <div  id="entry">
                     
                   </div>
@@ -144,16 +159,26 @@ CANADA -->
 
 <!-- MEXICO -->
 
+<<<<<<< HEAD
+      <div id="mexico" class="container-fluid">  
+=======
       <div id="mexican" class="container-fluid">  
+>>>>>>> addingMoreInfo
               <div class="country" id="mexicoCSS">
                 <div class="circle">
                   <div class="names">
 
                     <h1 >Mexico</h1>
 
+<<<<<<< HEAD
+                    <span  onclick="mexicoInfoClick()" >info </span>
+                    <span>|</span>
+                    <span onclick="mexicoCommentClick()"> comments</span>
+=======
                     <span  onclick="infoToggleOn(mexicoComment, mexicoInfo)" >info </span>
                     <span>|</span>
                     <span onclick="commentToggleOn(mexicoComment, mexicoInfo)"> comments</span>
+>>>>>>> addingMoreInfo
 
                   </div>
                 </div>
@@ -165,10 +190,14 @@ CANADA -->
                   <p>hi this is a fact</p>
                 </div>
               
+<<<<<<< HEAD
+                <div id="mexicoComment" class="commentSection"> 
+=======
                 <div id="mexicoComment" class="commentSection" style="display: none"> 
+>>>>>>> addingMoreInfo
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
-
+                    <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/northAmerica/mexicoComment.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
                   <div  id="entry">
                     
                   </div>

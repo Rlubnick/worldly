@@ -8,16 +8,6 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="layout.css">
-
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
@@ -41,9 +31,19 @@
        <a class="navbar-brand" href="http://gwc-worldly.herokuapp.com/index.html"><img src="images/logoReal.png" width="125px" height="125px"></a>
     <div>
       <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav">
+        <ul class="nav navbar-nav" style="float:right">
           <li><a href="#top">Back to Top </a></li>
 
+<<<<<<< HEAD
+       
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Countries <span class="caret"></span></a>
+            <ul class="dropdown-menu" style="float:right">
+               <li><a href="#france">France</a></li>
+          <li><a href="#england">England</a></li>
+          <li><a href="#italy">Italy </a></li>
+          <li><a href="#germany">Germany</a></li>
+           <li><a href="#greece">Greece</a></li>
+=======
           <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Countries <span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li><a href="#france">France</a></li>
@@ -51,6 +51,7 @@
               <li><a href="#italy">Italy </a></li>
               <li><a href="#germany">Germany</a></li>
               <li><a href="#greece">Greece</a></li>
+>>>>>>> addingMoreInfo
             </ul>
           
           </li>
@@ -65,11 +66,19 @@
         <div id="top" class="container-fluid">
           <h1 style="font-size: 200px; color: white">EUROPE</h1>
               
+<<<<<<< HEAD
+                  <span><li style="color:white"><a style="color:#503D3F;" href="#france">France</a></li></span>
+                  <span><li style="color:white"><a style="color:#503D3F;" href="#england">England</a></li style="color:white"></span>
+                  <span><li style="color:white"><a style="color:#503D3F;" href="#italy">Italy </a></li></span>
+                  <span><li style="color:white"><a style="color:#503D3F;" href="#germany">Germany</a></li></span>
+                  <span><li style="color:white"><a style="color:#503D3F;" href="#greece">Greece</a></li></span>
+=======
                   <span><li style="color:white"><a style="color:#503D3F;" href="#china">France</a></li></span>
                   <span><li style="color:white"><a style="color:#503D3F;" href="#thailand">England</a></li style="color:white"></span>
                   <span><li style="color:white"><a style="color:#503D3F;" href="#japan">Italy </a></li></span>
                   <span><li style="color:white"><a style="color:#503D3F;" href="#india">Germany</a></li></span>
                   <span><li style="color:white"><a style="color:#503D3F;" href="#sKorea">Greece</a></li></span>
+>>>>>>> addingMoreInfo
 
         </div>
 
@@ -82,13 +91,20 @@
 
                     <h1>France</h1>
 
+<<<<<<< HEAD
+                    <span  onclick="franceInfoClick()" >info </span>
+                    <span>|</span>
+                    <span onclick="franceCommentClick()"> comments</span>
+=======
                     <span  onclick="infoToggleOn(franceComment, franceInfo)" >info </span>
                     <span>|</span>
                     <span onclick="commentToggleOn(franceComment, franceInfo)"> comments</span>
+>>>>>>> addingMoreInfo
 
                   </div>
                 </div>
               </div>
+
 
               <div class="right" id="infoID">
                 <div id="franceInfo">
@@ -120,10 +136,17 @@
 
                 </div>
               
+<<<<<<< HEAD
+                <div id="franceComment" class="commentSection"> 
+
+                  <h1 style="color: white;  text-align: center">Comments</h1>
+                       <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/europeStuff/franceComment.html" data-width="50%" data-numposts="5" data-colorscheme='light'></div>
+=======
                 <div id="franceComment" class="commentSection" style="display: none"> 
 
                   <h1 style="color: white;  text-align: center;">Comments</h1>
 
+>>>>>>> addingMoreInfo
                   <div  id="entry">
                     
                   </div>
@@ -141,15 +164,27 @@ ENGLAND -->
 
                     <h1>England</h1>
 
+<<<<<<< HEAD
+                    <span  onclick="englandInfoClick()" >info </span>
+                    <span>|</span>
+
+                    <span onclick="englandCommentClick()"> comments</span>
+=======
                     <span  onclick="infoToggleOn(englandComment, englandInfo)" >info </span>
                     <span>|</span>
                     <span onclick="commentToggleOn(englandComment, englandInfo)"> comments</span>
+>>>>>>> addingMoreInfo
 
                   </div>
                 </div>
               </div>
 
+
               <div class="right" id="infoID">
+<<<<<<< HEAD
+
+=======
+>>>>>>> addingMoreInfo
                 <div id="englandInfo">
                   <h1 style="color: white;  text-align: center">Information</h1> 
                   
@@ -179,9 +214,15 @@ ENGLAND -->
 
                 </div>
               
+<<<<<<< HEAD
+                <div id="englandComment" class="commentSection"> 
+=======
                 <div id="englandComment" class="commentSection" style="display: none"> 
+>>>>>>> addingMoreInfo
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
+
+                     <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/europeStuff/englandComment.html" data-width="50%" data-numposts="5" data-colorscheme='light'></div>
 
                   <div  id="entry">
                     
@@ -199,15 +240,25 @@ ENGLAND -->
 
                     <h1 >Italy</h1>
 
+<<<<<<< HEAD
+                    <span  onclick="italyInfoClick()" >info </span>
+                    <span>|</span>
+                    <span onclick="italyCommentClick()"> comments</span>
+=======
                     <span  onclick="infoToggleOn(italyComment, italyInfo)" >info </span>
                     <span>|</span>
                     <span onclick="commentToggleOn(italyComment, italyInfo)"> comments</span>
+>>>>>>> addingMoreInfo
 
                   </div>
                 </div>
               </div>
 
               <div class="right" id="infoID">
+<<<<<<< HEAD
+
+=======
+>>>>>>> addingMoreInfo
                 <div id="italyInfo">
                   <h1 style="color: white;  text-align: center">Information</h1> 
                   
@@ -242,6 +293,9 @@ ENGLAND -->
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
 
+
+                    <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/europeStuff/italyComment.html" data-width="50%" data-numposts="5" data-colorscheme='light'></div>
+
                   <div  id="entry">
                     
                   </div>
@@ -258,15 +312,26 @@ ENGLAND -->
 
                     <h1>Germany</h1>
 
+<<<<<<< HEAD
+                    <span  onclick="germanyInfoClick()" >info </span>
+                    <span>|</span>
+                    <span onclick="germanyCommentClick()"> comments</span>
+=======
                     <span  onclick="infoToggleOn(germanyComment, germanyInfo)" >info </span>
                     <span>|</span>
                     <span onclick="commentToggleOn(germanyComment, germanyInfo)"> comments</span>
+>>>>>>> addingMoreInfo
 
                   </div>
                 </div>
               </div>
 
+
               <div class="right" id="infoID">
+<<<<<<< HEAD
+
+=======
+>>>>>>> addingMoreInfo
                 <div id="germanyInfo">
                   <h1 style="color: white;  text-align: center">Information</h1> 
                   
@@ -298,10 +363,15 @@ ENGLAND -->
                     </ul>
                 </div>
               
+<<<<<<< HEAD
+                <div id="germanyComment" class="commentSection"> 
+=======
                 <div id="germanyComment" class="commentSection" style="display: none"> 
+>>>>>>> addingMoreInfo
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
 
+                     <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/europeStuff/germanyComment.html" data-width="50%" data-numposts="5" data-colorscheme='light'></div>
                   <div  id="entry">
                     
                   </div>
@@ -318,9 +388,15 @@ ENGLAND -->
 
                     <h1>Greece</h1>
 
+<<<<<<< HEAD
+                    <span  onclick="greeceInfoClick()" >info </span>
+                    <span>|</span>
+                    <span onclick="greeceCommentClick()"> comments</span>
+=======
                     <span  onclick="infoToggleOn(greeceComment, greeceInfo)" >info </span>
                     <span>|</span>
                     <span onclick="commentToggleOn(greeceComment, greeceInfo)"> comments</span>
+>>>>>>> addingMoreInfo
 
                   </div>
                 </div>
@@ -357,10 +433,15 @@ ENGLAND -->
 
                 </div>
               
+<<<<<<< HEAD
+                <div id="greeceComment" class="commentSection"> 
+=======
                 <div id="greeceComment" class="commentSection" style="display: none"> 
+>>>>>>> addingMoreInfo
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
 
+                     <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/europeStuff/greecesComment.html" data-width="50%" data-numposts="5" data-colorscheme='light'></div>
                   <div  id="entry">
                     
                   </div>

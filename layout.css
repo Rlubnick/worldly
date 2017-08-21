@@ -95,22 +95,6 @@
    #turkeyCSS{
     background-image: url("./images/turkey.jpg"); 
   }
-<<<<<<< HEAD
-  #turkeyComments{}
-  #australiaCSS{
-    background-image: url("./images/australia.png"); 
-  }
-  #australiaComments{}
-   #nzCSS{
-    background-image: url("./images/nz.jpg"); 
-  }
-  #nzComments{}
-   #ngCSS{
-    background-image: url("./images/ng2.jpg"); 
-  }
-  #ngComments{}
-  #tasCSS{
-=======
   #uaeComments{}
     #australiaCSS{
     background-image: url("./images/australia.png"); 
@@ -125,18 +109,13 @@
   }
   #ngComments{}
     #tasCSS{
->>>>>>> addingMoreInfo
     background-image: url("./images/tas.jpg"); 
   }
   #tasComments{}
    #fijiCSS{
     background-image: url("./images/fiji.jpg"); 
   }
-<<<<<<< HEAD
-  #fijiComments{}
-=======
   #figiComments{}
->>>>>>> addingMoreInfo
    #moroccoCSS{
     background-image: url("./images/morocco.jpg"); 
   }
@@ -161,17 +140,10 @@
     background-image: url("./images/hongkong.jpg"); 
   }
   #hkComments{}
-<<<<<<< HEAD
-  #indoCSS{
-    background-image: url("./images/indo.jpg"); 
-  }
-  #indoComments{}
-=======
   #indonesiaCSS{
     background-image: url("./images/indonesia.jpg"); 
   }
   #indonesiaComments{}
->>>>>>> addingMoreInfo
   #vietnamCSS{
     background-image: url("./images/vietnam.jpg"); 
   }
@@ -184,18 +156,10 @@
     background-image: url("./images/taiwan.jpg"); 
   }
   #taiwanComments{}
-<<<<<<< HEAD
-  #singCSS{
-    background-image: url("./images/sing2.jpg"); 
-  }
-  #singComments{}
-  
-=======
   #singaporeCSS{
     background-image: url("./images/singapre.jpg"); 
   }
   #singaporeComments{}
->>>>>>> addingMoreInfo
 
 
   .circle {
@@ -306,13 +270,8 @@
   }
 
   #infoID{
-<<<<<<< HEAD
-    padding-left: 10%;
-    padding-right: 10%;
-=======
     padding-left: 2%;
     padding-right: 2%;
->>>>>>> addingMoreInfo
   }
 
   #israel {
@@ -583,11 +542,7 @@
     height:650px;
     color: #fff; 
     background-color: lightgrey;
-<<<<<<< HEAD
-  }
-=======
     padding-left: 2%;
     padding-right: 2%;
   }
 
->>>>>>> addingMoreInfo

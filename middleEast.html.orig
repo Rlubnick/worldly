@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Worldly Middle East</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="layout.css">
+
+
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appID=810497285794451&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+<div id="container"></div><nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="http://gwc-worldly.herokuapp.com/index.html"><img src="images/logoReal.png" width="125px" height="125px"></a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right" text-align= "right">
+          <li><a href="#top">Back to Top </a></li>
+          <!-- <li><a href="#china">Israel</a></li>
+          <li><a href="#thailand">Egypt</a></li>
+          <li><a href="#japan">Saudi Arabia </a></li>
+          <li><a href="#india">United Arab Emirates</a></li>
+           <li><a href="#sKorea">Turkey</a></li> -->
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Countries <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#israel">Israel</a></li>
+              <li><a href="#egypt">Egypt</a></li>
+              <li><a href="#sa">Saudi Arabia </a></li>
+              <li><a href="#uae">United Arab Emirates</a></li>
+              <li><a href="#turkey">Turkey</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
+
+
+<!-- MIDDLE EAST -->
+        <div id="top" class="container-fluid">
+          <h1 style="font-size: 150px; color: white">MIDDLE EAST</h1>
+              
+                  <span><li style="color:white"><a style="color:#503D3F;" href="#israel">Israel</a></li></span>
+                  <span><li style="color:white"><a style="color:#503D3F;" href="#egypt">Egypt</a></li style="color:white"></span>
+                  <span><li style="color:white"><a style="color:#503D3F;" href="#sa">Saudi Arabia </a></li></span>
+                  <span><li style="color:white"><a style="color:#503D3F;" href="#uae">United Arab Emirates</a></li></span>
+                  <span><li style="color:white"><a style="color:#503D3F;" href="#turkey">Turkey</a></li></span>
+
+        </div>
+
+<!-- ISRAEL -->
+
+           <div id="israel" class="container-fluid">  
+              <div class="country" id="israelCSS">
+                <div class="circle">
+                  <div class="names">
+
+                    <h1>Israel</h1>
+
+<<<<<<< HEAD
+                    <span  onclick="israelInfoClick()" >info </span>
+                    <span>|</span>
+                    <span onclick="israelCommentClick()"> comments</span>
+=======
+                    <span  onclick="infoToggleOn(israelComment, israelInfo)" >info </span>
+                    <span>|</span>
+                    <span onclick="commentToggleOn(israelComment, israelInfo)"> comments</span>
+>>>>>>> addingMoreInfo
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="right">
+                <div id="israelInfo">
+                  <h1 style="color: white;  text-align: center">Information</h1> 
+                  <p>hi this is a fact</p>
+                </div>
+              
+<<<<<<< HEAD
+                <div id="israelComment" class="commentSection"> 
+=======
+                <div id="israelComment" class="commentSection" style="display: none"> 
+>>>>>>> addingMoreInfo
+
+                  <h1 style="color: white;  text-align: center">Comments</h1>
+                  <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/middleEast/israelComment.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
+                  
+                  <div  id="entry">
+                    
+                  </div>
+                </div>
+              </div>
+          </div>
+
+<!-- 
+EGYPT-->
+
+           <div id="egypt" class="container-fluid">  
+              <div class="country" id="egyptCSS">
+                <div class="circle">
+                  <div class="names">
+
+                    <h1>Egypt</h1>
+
+<<<<<<< HEAD
+                    <span  onclick="egyptInfoClick()" >info </span>
+                    <span>|</span>
+                    <span onclick="egyptCommentClick()"> comments</span>
+=======
+                    <span  onclick="infoToggleOn(egyptComment, egyptInfo)" >info </span>
+                    <span>|</span>
+                    <span onclick="commentToggleOn(egyptComment, egyptInfo)"> comments</span>
+>>>>>>> addingMoreInfo
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="right">
+                <div id="egyptInfo">
+                  <h1 style="color: white;  text-align: center">Information</h1> 
+                  <p>hi this is a fact</p>
+                </div>
+              
+<<<<<<< HEAD
+                <div id="egyptComment"  class="commentSection"> 
+=======
+                <div id="egyptComment" class="commentSection" style="display: none"> 
+>>>>>>> addingMoreInfo
+
+                  <h1 style="color: white;  text-align: center">Comments</h1>
+                   <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/middleEast/egyptComment.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
+                  
+
+                  <div  id="entry">
+                    
+                  </div>
+                </div>
+              </div>
+          </div>
+
+<!-- SAUDI ARABIA -->
+
+      <div id="sa" class="container-fluid">  
+              <div class="country" id="saCSS">
+                <div class="circle">
+                  <div class="names">
+
+                    <h1 >Saudi Arabia</h1>
+
+<<<<<<< HEAD
+                    <span  onclick="saInfoClick()" >info </span>
+                    <span>|</span>
+                    <span onclick="saCommentClick()"> comments</span>
+
+=======
+                    <span  onclick="infoToggleOn(saComment, saInfo)" >info </span>
+                    <span>|</span>
+                    <span onclick="commentToggleOn(saComment, saInfo)"> comments</span>
+                  
+>>>>>>> addingMoreInfo
+                  </div>
+                </div>
+              </div>
+
+              <div class="right">
+                <div id="saInfo">
+                  <h1 style="color: white;  text-align: center">Information</h1> 
+                  <p>hi this is a fact</p>
+                </div>
+              
+<<<<<<< HEAD
+                <div id="saComment" class="commentSection"> 
+=======
+                <div id="saComment" class="commentSection" style="display: none"> 
+>>>>>>> addingMoreInfo
+
+                  <h1 id="saComments" style="color: white;  text-align: center">Comments</h1>
+                   <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/middleEast/saComment.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
+                  
+
+                  <div  id="entry">
+                    
+                  </div>
+                </div>
+              </div>
+          </div>
+
+<!-- UNITED ARAB EMIRATES-->
+
+      <div id="uae" class="container-fluid">  
+              <div class="country" id="uaeCSS">
+                <div class="circle">
+                  <div class="names">
+
+                    <h1>United Arab Emirates</h1>
+
+<<<<<<< HEAD
+                    <span  onclick="uaeInfoClick()" >info </span>
+                    <span>|</span>
+                    <span onclick="uaeCommentClick()"> comments</span>
+=======
+                    <span  onclick="infoToggleOn(uaeComment, uaeInfo)" >info </span>
+                    <span>|</span>
+                    <span onclick="commentToggleOn(uaeComment, uaeInfo)"> comments</span>
+>>>>>>> addingMoreInfo
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="right">
+                <div id="uaeInfo">
+                  <h1 style="color: white;  text-align: center">Information</h1> 
+                  <p>hi this is a fact</p>
+                </div>
+              
+<<<<<<< HEAD
+                <div id="uaeComment" class="commentSection"> 
+
+                  <h1 id="uaeComments" style="color: white;  text-align: center">Comments</h1>
+                    <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/middleEast/saComment.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
+=======
+                <div id="uaeComment" class="commentSection" style="display: none"> 
+>>>>>>> addingMoreInfo
+
+
+                  <div  id="entry">
+                    
+                  </div>
+                </div>
+              </div>
+          </div>
+
+<!-- TURKEY-->
+
+            <div id="turkey" class="container-fluid">  
+<<<<<<< HEAD
+              <div class="country" id="turkeyCSS">
+                <div class="circle">
+                  <div class="names">
+
+                    <h1>Turkey</h1>
+
+                    <span  onclick="turkeyInfoClick()" >info </span>
+                    <span>|</span>
+                    <span onclick="turkeyCommentClick()"> comments</span>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="right">
+                <div id="turkeyInfo">
+                  <h1 style="color: white;  text-align: center">Information</h1> 
+                  <p>hi this is a fact</p>
+                </div>
+              
+                <div id="turkeyComment" class="commentSection"> 
+
+                  <h1 style="color: white;  text-align: center">Comments</h1>
+                    <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/middleEast/turkeyComment.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
+                  <div  id="entry">
+                    
+                  </div>
+                </div>
+              </div>
+          </div>
+
+
+<!-- YEMEN-->
+
+            <div id="turkey" class="container-fluid">  
+              <div class="country" id="turkeyCSS">
+                <div class="circle">
+                  <div class="names">
+
+                    <h1>Turkey</h1>
+
+                    <span  onclick="turkeyInfoClick()" >info </span>
+                    <span>|</span>
+                    <span onclick="turkeyCommentClick()"> comments</span>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="right">
+                <div id="turkeyInfo">
+                  <h1 style="color: white;  text-align: center">Information</h1> 
+                  <p>hi this is a fact</p>
+                </div>
+              
+                <div id="turkeyComment" class="commentSection"> 
+
+                  <h1 style="color: white;  text-align: center">Comments</h1>
+                    <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/middleEast/turkeyComment.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
+                  <div  id="entry">
+                    
+                  </div>
+                </div>
+              </div>
+          </div>
+         
+<!-- DUBAI-->
+
+            <div id="turkey" class="container-fluid">  
+              <div class="country" id="turkeyCSS">
+                <div class="circle">
+                  <div class="names">
+
+                    <h1>Turkey</h1>
+
+                    <span  onclick="turkeyInfoClick()" >info </span>
+                    <span>|</span>
+                    <span onclick="turkeyCommentClick()"> comments</span>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="right">
+                <div id="turkeyInfo">
+                  <h1 style="color: white;  text-align: center">Information</h1> 
+                  <p>hi this is a fact</p>
+                </div>
+              
+                <div id="turkeyComment" class="commentSection"> 
+
+                  <h1 style="color: white;  text-align: center">Comments</h1>
+                    <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/middleEast/turkeyComment.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
+                  <div  id="entry">
+                    
+                  </div>
+                </div>
+              </div>
+          </div>
+          
+<!-- SYRIA-->
+
+            <div id="turkey" class="container-fluid">  
+              <div class="country" id="turkeyCSS">
+                <div class="circle">
+                  <div class="names">
+
+                    <h1>Turkey</h1>
+
+                    <span  onclick="turkeyInfoClick()" >info </span>
+                    <span>|</span>
+                    <span onclick="turkeyCommentClick()"> comments</span>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="right">
+                <div id="turkeyInfo">
+                  <h1 style="color: white;  text-align: center">Information</h1> 
+                  <p>hi this is a fact</p>
+                </div>
+              
+                <div id="turkeyComment" class="commentSection"> 
+
+                  <h1 style="color: white;  text-align: center">Comments</h1>
+                    <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/middleEast/turkeyComment.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
+                  <div  id="entry">
+                    
+                  </div>
+                </div>
+              </div>
+          </div>
+          
+<!-- AFGHANISTAN-->
+
+            <div id="turkey" class="container-fluid">  
+=======
+>>>>>>> addingMoreInfo
+              <div class="country" id="turkeyCSS">
+                <div class="circle">
+                  <div class="names">
+
+                    <h1>Turkey</h1>
+
+<<<<<<< HEAD
+                    <span  onclick="turkeyInfoClick()" >info </span>
+                    <span>|</span>
+                    <span onclick="turkeyCommentClick()"> comments</span>
+=======
+                    <span  onclick="infoToggleOn(turkeyComment, turkeyInfo)" >info </span>
+                    <span>|</span>
+                    <span onclick="commentToggleOn(turkeyComment, turkeyInfo)"> comments</span>
+>>>>>>> addingMoreInfo
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="right">
+                <div id="turkeyInfo">
+                  <h1 style="color: white;  text-align: center">Information</h1> 
+                  <p>hi this is a fact</p>
+                </div>
+              
+<<<<<<< HEAD
+                <div id="turkeyComment" class="commentSection"> 
+=======
+                <div id="turkeyComment" class="commentSection" style="display: none"> 
+>>>>>>> addingMoreInfo
+
+                  <h1 style="color: white;  text-align: center">Comments</h1>
+                    <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/middleEast/turkeyComment.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
+                  <div  id="entry">
+                    
+                  </div>
+                </div>
+              </div>
+          </div>
+          
+<!-- PAKISTAN-->
+
+            <div id="paki" class="container-fluid">  
+              <div class="country" id="turkeyCSS">
+                <div class="circle">
+                  <div class="names">
+
+                    <h1>Turkey</h1>
+
+                    <span  onclick="pakiInfoClick()" >info </span>
+                    <span>|</span>
+                    <span onclick="pakiCommentClick()"> comments</span>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="right">
+                <div id="pakiInfo">
+                  <h1 style="color: white;  text-align: center">Information</h1> 
+                  <p>hi this is a fact</p>
+                </div>
+              
+                <div id="turkeyComment" class="commentSection"> 
+
+                  <h1 style="color: white;  text-align: center">Comments</h1>
+                    <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/middleEast/turkeyComment.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
+                  <div  id="entry">
+                    
+                  </div>
+                </div>
+              </div>
+          </div>
+
+              
+
+              
+
+  <script src="wordlyAsia.js"></script>
+ <!--  <script src="todocopy3.js"></script>
+  <script src="db2.js"></script>
+  <script src="database1.js"></script> -->
+  
+
+</body>
+</html>

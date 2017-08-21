@@ -95,6 +95,7 @@
    #turkeyCSS{
     background-image: url("./images/turkey.jpg"); 
   }
+<<<<<<< HEAD
   #turkeyComments{}
   #australiaCSS{
     background-image: url("./images/australia.png"); 
@@ -109,13 +110,33 @@
   }
   #ngComments{}
   #tasCSS{
+=======
+  #uaeComments{}
+    #australiaCSS{
+    background-image: url("./images/australia.png"); 
+  }
+  #australiaComments{}
+    #nzCSS{
+    background-image: url("./images/nz.jpg"); 
+  }
+  #nzComments{}
+    #ngCSS{
+    background-image: url("./images/ng2.jpg"); 
+  }
+  #ngComments{}
+    #tasCSS{
+>>>>>>> addingMoreInfo
     background-image: url("./images/tas.jpg"); 
   }
   #tasComments{}
    #fijiCSS{
     background-image: url("./images/fiji.jpg"); 
   }
+<<<<<<< HEAD
   #fijiComments{}
+=======
+  #figiComments{}
+>>>>>>> addingMoreInfo
    #moroccoCSS{
     background-image: url("./images/morocco.jpg"); 
   }
@@ -137,13 +158,20 @@
   }
   #algeriaComments{}
   #hkCSS{
-    background-image: url("./images/hk.jpg"); 
+    background-image: url("./images/hongkong.jpg"); 
   }
   #hkComments{}
+<<<<<<< HEAD
   #indoCSS{
     background-image: url("./images/indo.jpg"); 
   }
   #indoComments{}
+=======
+  #indonesiaCSS{
+    background-image: url("./images/indonesia.jpg"); 
+  }
+  #indonesiaComments{}
+>>>>>>> addingMoreInfo
   #vietnamCSS{
     background-image: url("./images/vietnam.jpg"); 
   }
@@ -156,12 +184,18 @@
     background-image: url("./images/taiwan.jpg"); 
   }
   #taiwanComments{}
+<<<<<<< HEAD
   #singCSS{
     background-image: url("./images/sing2.jpg"); 
   }
   #singComments{}
   
-
+=======
+  #singaporeCSS{
+    background-image: url("./images/singapre.jpg"); 
+  }
+  #singaporeComments{}
+>>>>>>> addingMoreInfo
 
 
   .circle {
@@ -179,6 +213,7 @@
     padding-left: 0%;
     padding-right: 0%
   }
+
 
   .names{
     margin: auto;
@@ -271,13 +306,15 @@
   }
 
   #infoID{
+<<<<<<< HEAD
     padding-left: 10%;
     padding-right: 10%;
-  }
-<<<<<<< HEAD
-  h3{
-    font-color:navy;
 =======
+    padding-left: 2%;
+    padding-right: 2%;
+>>>>>>> addingMoreInfo
+  }
+
   #israel {
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     font-weight: 100;
@@ -546,5 +583,11 @@
     height:650px;
     color: #fff; 
     background-color: lightgrey;
->>>>>>> 40171c4dc53f4b91cc4fee58c12457f84f457093
+<<<<<<< HEAD
   }
+=======
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+>>>>>>> addingMoreInfo
