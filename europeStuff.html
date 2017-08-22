@@ -30,6 +30,15 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
+<!-- <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+ -->
 <div id="container"></div><nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -39,9 +48,10 @@
           <span class="icon-bar"></span>                        
       </button>
        <a class="navbar-brand" href="http://gwc-worldly.herokuapp.com/index.html"><img src="images/logoReal.png" width="125px" height="125px"></a>
+    </div>
     <div>
       <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav">
+        <ul class="nav navbar-nav navbar-right" text-align= "right"">
           <li><a href="#top">Back to Top </a></li>
 
           <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Countries <span class="caret"></span></a>
@@ -65,11 +75,11 @@
         <div id="top" class="container-fluid">
           <h1 style="font-size: 200px; color: white">EUROPE</h1>
               
-                  <span><li style="color:white"><a style="color:#503D3F;" href="#china">France</a></li></span>
-                  <span><li style="color:white"><a style="color:#503D3F;" href="#thailand">England</a></li style="color:white"></span>
-                  <span><li style="color:white"><a style="color:#503D3F;" href="#japan">Italy </a></li></span>
-                  <span><li style="color:white"><a style="color:#503D3F;" href="#india">Germany</a></li></span>
-                  <span><li style="color:white"><a style="color:#503D3F;" href="#sKorea">Greece</a></li></span>
+                  <span><li style="color:white"><a style="color:#503D3F;" href="#france">France</a></li></span>
+                  <span><li style="color:white"><a style="color:#503D3F;" href="#england">England</a></li style="color:white"></span>
+                  <span><li style="color:white"><a style="color:#503D3F;" href="#italy">Italy </a></li></span>
+                  <span><li style="color:white"><a style="color:#503D3F;" href="#germany">Germany</a></li></span>
+                  <span><li style="color:white"><a style="color:#503D3F;" href="#greece">Greece</a></li></span>
 
         </div>
 
@@ -121,8 +131,11 @@
                 </div>
               
                 <div id="franceComment" class="commentSection" style="display: none"> 
-
                   <h1 style="color: white;  text-align: center;">Comments</h1>
+
+                      <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/europeStuff/franceComment.html" data-width="50%" data-numposts="5" data-colorscheme='light'></div>
+
+
 
                   <div  id="entry">
                     
@@ -183,6 +196,8 @@ ENGLAND -->
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
 
+                      <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/europeStuff/englandComment.html" data-width="50%" data-numposts="5" data-colorscheme='light'></div>
+
                   <div  id="entry">
                     
                   </div>
@@ -241,6 +256,8 @@ ENGLAND -->
                 <div id="italyComment" class="commentSection"> 
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
+                        <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/europeStuff/italyComment.html" data-width="50%" data-numposts="5" data-colorscheme='light'></div>
+
 
                   <div  id="entry">
                     
@@ -299,8 +316,8 @@ ENGLAND -->
                 </div>
               
                 <div id="germanyComment" class="commentSection" style="display: none"> 
-
                   <h1 style="color: white;  text-align: center">Comments</h1>
+                        <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/europeStuff/germanyComment.html" data-width="50%" data-numposts="5" data-colorscheme='light'></div>
 
                   <div  id="entry">
                     
@@ -358,8 +375,9 @@ ENGLAND -->
                 </div>
               
                 <div id="greeceComment" class="commentSection" style="display: none"> 
-
                   <h1 style="color: white;  text-align: center">Comments</h1>
+                        <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/europeStuff/greecesComment.html" data-width="50%" data-numposts="5" data-colorscheme='light'></div>
+
 
                   <div  id="entry">
                     

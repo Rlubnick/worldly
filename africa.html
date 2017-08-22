@@ -13,6 +13,14 @@
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appID=810497285794451&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 <div id="container"></div><nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
@@ -26,7 +34,7 @@
     </div>
     <div>
       <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav">
+        <ul class="nav navbar-nav navbar-right" text-align= "right"">
           <li><a href="#top">Back to Top </a></li>
 
           <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Countries <span class="caret"></span></a>
@@ -67,7 +75,7 @@
 
                     <h1>Morocco</h1>
 
-                    <span  onclick="infoToggleOn(morrocoComment, morrocoInfo)" >info </span>
+                    <span  onclick="infoToggleOn(moroccoComment, moroccoInfo)" >info </span>
                     <span>|</span>
                     <span onclick="commentToggleOn(moroccoComment, moroccoInfo)"> comments</span>
 
@@ -75,15 +83,16 @@
                 </div>
               </div>
 
-              <div class="right">
+              <div class="right" id="infoID">
                 <div id="moroccoInfo">
                   <h1 style="color: white;  text-align: center">Information</h1> 
                   <p>hi this is a fact</p>
                 </div>
               
                 <div id="moroccoComment" class="commentSection" style="display: none"> 
-
                   <h1 style="color: white;  text-align: center">Comments</h1>
+                      <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/africa/moroccoComments.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
+
 
                   <div  id="entry">
                     
@@ -110,15 +119,16 @@ TUNISIA-->
                 </div>
               </div>
 
-              <div class="right">
+              <div class="right" id="infoID">
                 <div id="tunisiaInfo">
                   <h1 style="color: white;  text-align: center">Information</h1> 
                   <p>hi this is a fact</p>
                 </div>
               
                 <div id="tunisiaComment" class="commentSection" style="display: none"> 
-
                   <h1 style="color: white;  text-align: center">Comments</h1>
+                        <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/africa/tunisiaComments.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
+
 
                   <div  id="entry">
                     
@@ -144,15 +154,16 @@ TUNISIA-->
                 </div>
               </div>
 
-              <div class="right">
+              <div class="right" id="infoID">
+              <div class="right" >
                 <div id="tanzInfo">
                   <h1 style="color: white;  text-align: center">Information</h1> 
                   <p>hi this is a fact</p>
                 </div>
               
                 <div id="tanzComment" class="commentSection" style="display: none"> 
-
                   <h1 style="color: white;  text-align: center">Comments</h1>
+                        <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/africa/tanzComments.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
 
                   <div  id="entry">
                     
@@ -178,15 +189,16 @@ TUNISIA-->
                 </div>
               </div>
 
-              <div class="right">
+              <div class="right" id="infoID">
                 <div id="ghanaInfo">
                   <h1 style="color: white;  text-align: center">Information</h1> 
                   <p>hi this is a fact</p>
                 </div>
               
                 <div id="ghanaComment" class="commentSection" style="display: none"> 
-
                   <h1 style="color: white;  text-align: center">Comments</h1>
+                      <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/africa/ghanaComments.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
+
 
                   <div  id="entry">
                     
@@ -212,15 +224,16 @@ TUNISIA-->
                 </div>
               </div>
 
-              <div class="right">
+              <div class="right" id="infoID">
                 <div id="algeriaInfo">
                   <h1 style="color: white;  text-align: center">Information</h1> 
                   <p>hi this is a fact</p>
                 </div>
               
                 <div id="algeriaComment" class="commentSection" style="display: none"> 
-
                   <h1 style="color: white;  text-align: center">Comments</h1>
+                      <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/africa/algeriaComments.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
+
 
                   <div  id="entry">
                     

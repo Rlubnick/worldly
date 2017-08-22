@@ -13,6 +13,14 @@
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appID=810497285794451&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 <div id="container"></div><nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
@@ -32,14 +40,14 @@
           <li><a href="#nz">New Zealand</a></li>
           <li><a href="#ng">New Guinea </a></li>
           <li><a href="#tas">Tasmania</a></li>
-           <li><a href="#figi">Fiji</a></li> -->
+           <li><a href="#fiji">Fiji</a></li> -->
           <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Countries <span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li><a href="#australia">Australia</a></li>
               <li><a href="#nz">New Zealand</a></li>
               <li><a href="#ng">New Guinea </a></li>
               <li><a href="#tas">Tasmania</a></li>
-              <li><a href="#figi">Fiji</a></li>
+              <li><a href="#fiji">Fiji</a></li>
             </ul>
           </li>
         </ul>
@@ -54,10 +62,10 @@
           <h1 style="font-size: 150px; color: white">SOUTH PACIFIC</h1>
               
                   <span><li style="color:white"><a style="color:#503D3F;" href="#australia">Australia</a></li></span>
-                  <span><li style="color:white"><a style="color:#503D3F;" href="#nz">New Nealand </a></li style="color:white"></span>
+                  <span><li style="color:white"><a style="color:#503D3F;" href="#nz">New Zealand </a></li style="color:white"></span>
                   <span><li style="color:white"><a style="color:#503D3F;" href="#ng">New Guinea </a></li></span>
                   <span><li style="color:white"><a style="color:#503D3F;" href="#tas">Tasmania</a></li></span>
-                  <span><li style="color:white"><a style="color:#503D3F;" href="#figi">Fiji</a></li></span>
+                  <span><li style="color:white"><a style="color:#503D3F;" href="#fiji">Fiji</a></li></span>
 
         </div>
 
@@ -78,15 +86,15 @@
                 </div>
               </div>
 
-              <div class="right">
+              <div class="right" id="infoID">
                 <div id="australiaInfo">
                   <h1 style="color: white;  text-align: center">Information</h1> 
                   <p>hi this is a fact</p>
                 </div>
               
                 <div id="australiaComment" class="commentSection" style="display: none"> 
-
                   <h1 style="color: white;  text-align: center">Comments</h1>
+                        <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/southPacific/australiaComments.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
 
                   <div  id="entry">
                     
@@ -113,15 +121,15 @@ NEW ZEALAND -->
                 </div>
               </div>
 
-              <div class="right">
+              <div class="right" id="infoID">
                 <div id="nzInfo">
                   <h1 style="color: white;  text-align: center">Information</h1> 
                   <p>hi this is a fact</p>
                 </div>
               
                 <div id="nzComment" class="commentSection" style="display: none"> 
-
                   <h1 style="color: white;  text-align: center">Comments</h1>
+                        <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/southPacific/nzComments.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
 
                   <div  id="entry">
                     
@@ -147,7 +155,7 @@ NEW ZEALAND -->
                 </div>
               </div>
 
-              <div class="right">
+              <div class="right" id="infoID">
                 <div id="ngInfo">
                   <h1 style="color: white;  text-align: center">Information</h1> 
                   <p>hi this is a fact</p>
@@ -156,6 +164,7 @@ NEW ZEALAND -->
                 <div id="ngComment" class="commentSection" style="display: none"> 
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
+                      <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/southPacific/ngComments.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
 
                   <div  id="entry">
                     
@@ -181,7 +190,7 @@ NEW ZEALAND -->
                 </div>
               </div>
 
-              <div class="right">
+              <div class="right" id="infoID">
                 <div id="tasInfo">
                   <h1 style="color: white;  text-align: center">Information</h1> 
                   <p>hi this is a fact</p>
@@ -190,6 +199,7 @@ NEW ZEALAND -->
                 <div id="tasComment" class="commentSection" style="display: none"> 
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
+                        <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/southPacific/tasComments.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
 
                   <div  id="entry">
                     
@@ -200,30 +210,31 @@ NEW ZEALAND -->
 
 <!-- FIJI-->
 
-            <div id="figi" class="container-fluid">  
+      <div id="fiji" class="container-fluid">  
               <div class="country" id="fijiCSS">
                 <div class="circle">
                   <div class="names">
 
                     <h1>Fiji</h1>
 
-                    <span  onclick="infoToggleOn(figiComment, figiInfo)" >info </span>
+                    <span  onclick="infoToggleOn(fijiComment, fijiInfo)" >info </span>
                     <span>|</span>
-                    <span onclick="commentToggleOn(figiComment, figiInfo)"> comments</span>
+                    <span onclick="commentToggleOn(fijiComment, fijiInfo)"> comments</span>
 
                   </div>
                 </div>
               </div>
 
-              <div class="right">
-                <div id="figiInfo">
+              <div class="right" id="infoID">
+                <div id="fijiInfo">
                   <h1 style="color: white;  text-align: center">Information</h1> 
                   <p>hi this is a fact</p>
                 </div>
               
-                <div id="figiComment" class="commentSection" style="display: none"> 
+                <div id="fijiComment" class="commentSection" style="display: none"> 
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
+                        <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/southPacific/fijiComments.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
 
                   <div  id="entry">
                     

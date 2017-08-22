@@ -13,6 +13,14 @@
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appID=810497285794451&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 <div id="container"></div><nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
@@ -78,7 +86,7 @@
                 </div>
               </div>
 
-              <div class="right">
+              <div class="right" id="infoID">
                 <div id="peruInfo">
                   <h1 style="color: white;  text-align: center">Information</h1> 
                   
@@ -109,8 +117,9 @@
                 </div>
               
                 <div id="peruComment" class="commentSection" style="display: none"> 
-
                   <h1 style="color: white;  text-align: center">Comments</h1>
+                      <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/southAmerica/peruComments.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
+
 
                   <div  id="entry">
                     
@@ -137,7 +146,7 @@ BRAZIL -->
                 </div>
               </div>
 
-              <div class="right">
+              <div class="right" id="infoID">
                 <div id="brazilInfo">
                   <h1 style="color: white;  text-align: center">Information</h1> 
                   
@@ -167,8 +176,9 @@ BRAZIL -->
                 </div>
               
                 <div id="brazilComment" class="commentSection" style="display: none"> 
-
                   <h1 style="color: white;  text-align: center">Comments</h1>
+                        <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/southAmerica/brazilComments.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
+
 
                   <div  id="entry">
                     
@@ -194,7 +204,7 @@ BRAZIL -->
                 </div>
               </div>
 
-              <div class="right">
+              <div class="right" id="infoID">
                 <div id="chileInfo">
                   <h1 style="color: white;  text-align: center">Information</h1> 
                   
@@ -227,6 +237,7 @@ BRAZIL -->
                 <div id="chileComment" class="commentSection" style="display: none"> 
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
+                        <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/southAmerica/chileComments.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
 
                   <div  id="entry">
                     
@@ -252,7 +263,7 @@ BRAZIL -->
                 </div>
               </div>
 
-              <div class="right">
+              <div class="right" id="infoID">
                 <div id="crInfo">
                   <h1 style="color: white;  text-align: center">Information</h1> 
                   
@@ -285,6 +296,7 @@ BRAZIL -->
                 <div id="crComment" class="commentSection" style="display: none"> 
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
+                      <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/southAmerica/crComments.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
 
                   <div  id="entry">
                     
@@ -310,7 +322,7 @@ BRAZIL -->
                 </div>
               </div>
 
-              <div class="right">
+              <div class="right" >
                 <div id="argentinaInfo">
                   <h1 style="color: white;  text-align: center">Information</h1> 
                  
@@ -346,6 +358,8 @@ BRAZIL -->
                 <div id="argentinaComment" class="commentSection" style="display: none"> 
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
+                      <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/southAmerica/argentinaComments.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
+
 
                   <div  id="entry">
                     
