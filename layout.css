@@ -12,18 +12,23 @@
   #chinaCSS{
     background-image: url("./images/chinese_culture.jpg"); 
   }
+  #chinaComment{}
    #thaiCSS{
     background-image: url("./images/photo44_copy.jpg"); 
   }
+  #thailandComment{}
    #japanCSS{
     background-image: url("./images/japan.jpg"); 
   }
+  #japanComment{}
   #indiaCSS{
     background-image: url("./images/india.jpg"); 
   }
+  #indiaComment{}
    #sKoreaCSS{
     background-image: url("./images/sKorea.jpg"); 
   }
+  #sKoreaComment{}
    #franceCSS{
     background-image: url("./images/france2.jpg"); 
   }
