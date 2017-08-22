@@ -33,7 +33,7 @@
   }*/
 
     #map2{
-      height: 100%;
+      height: 90%;
       width: 100%;
 
       /*width:100vw; height:100vh;*/
@@ -170,11 +170,32 @@ html {
   background-color: #555;
 }
   
-  #section1 {padding-top:0px;height:700px; background-image: url("images/clouds.gif"); background-size: cover;}
-  #section2 {padding-top:50px;height:700px;color: #fff; background-color: #A9A9A9;}
-  #section3 {padding-top:50px;height:700px;color: #fff; background-image: url("images/home_bg.jpg"); background-size: cover;}
-  #section4 {padding-top:50px;height:1000px;color: #fff; background-color: lightblue;}
-  #section5 {padding-top:50px;height:700px;color: #fff; background-image: url("images/planeUp.jpg"); background-size: cover;}
+  #section1 {padding-top:0px;min-height:700px; background-image: url("images/clouds.gif"); background-size: cover;}
+
+  #mapSection {
+    padding-top:50px;
+    height:600px;
+    color: #fff; 
+    background-color: #A9A9A9;
+}
+
+  #section2 {
+    padding-top:50px;
+    color: #fff; 
+    background-color: #A9A9A9;
+
+
+    width:100%;
+      font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+      font-size: 50px;
+      font-style:normal;
+      padding: 20px;
+  }
+
+
+  #section3 {padding-top:50px;min-height:700px;color: #fff; background-image: url("images/home_bg.jpg"); background-size: cover;}
+  #section4 {padding-top:50px;min-height:1000px;color: #fff; background-color: lightblue;}
+  #section5 {padding-top:50px;min-height:700px;color: #fff; background-image: url("images/planeUp.jpg"); background-size: cover;}
 </style>
 
 </head>
@@ -217,7 +238,7 @@ html {
 		<h2><font color="#ffffff"> The essential travel guide- made for <u><i>women</i></u>, by <u><i>women</i></u>.</font></h2>
 		<!-- <h2>Worldly wisdom of respectful customs and traditions.</h2> -->
 	</div>  
-	<div>
+<div>
 
 		<div class="center" id="bottom">
 		  <img id= "scrollDown" src="images/circleButton.svg"></img>
@@ -227,8 +248,8 @@ html {
 	</div>
 </div>
 
-  <div id="chooseaRegion"><center> Choose a region </center></div>
-<div id="section2" class="container-fluid center century">
+<div id="section2"><center> Choose a region </center></div>
+<div id="mapSection" class="container-fluid center century">
   <div id="map2"></div>
 </div>
 

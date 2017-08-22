@@ -140,10 +140,10 @@
     background-image: url("./images/hongkong.jpg"); 
   }
   #hkComments{}
-  #indonesiaCSS{
-    background-image: url("./images/indonesia.jpg"); 
+  #indoCSS{
+    background-image: url("./images/indo.jpg"); 
   }
-  #indonesiaComments{}
+  #indoComments{}
   #vietnamCSS{
     background-image: url("./images/vietnam.jpg"); 
   }
@@ -156,10 +156,10 @@
     background-image: url("./images/taiwan.jpg"); 
   }
   #taiwanComments{}
-  #singaporeCSS{
-    background-image: url("./images/singapre.jpg"); 
+  #singCSS{
+    background-image: url("./images/sing2.jpg"); 
   }
-  #singaporeComments{}
+  #singComments{}
 
 
   .circle {
