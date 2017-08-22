@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Worldly Europe</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="layout.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div id="container"></div><nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+       <a class="navbar-brand" href="http://gwc-worldly.herokuapp.com/index.html"><img src="images/logoReal.png" width="125px" height="125px"></a>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav" style="float:right">
+          <li><a href="#top">Back to Top </a></li>
+<<<<<<< HEAD
+         <!--  <li><a href="#france">France</a></li>
+          <li><a href="#england">England</a></li>
+          <li><a href="#italy">Italy </a></li>
+          <li><a href="#germany">Germany</a></li>
+           <li><a href="#greece">Greece</a></li> -->
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Countries <span class="caret"></span></a>
+            <ul class="dropdown-menu" style="float:right">
+               <li><a href="#france">France</a></li>
+=======
+
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Countries <span class="caret"></span></a>
+            <ul class="dropdown-menu" style="float:right">
+
+          <li><a href="#france">France</a></li>
+>>>>>>> c644bffe9d70af2c77b4d747b6e4b069fd555aa4
+          <li><a href="#england">England</a></li>
+          <li><a href="#italy">Italy </a></li>
+          <li><a href="#germany">Germany</a></li>
+           <li><a href="#greece">Greece</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
+
+
+<!-- EUROPE -->
+        <div id="top" class="container-fluid">
+          <h1 style="font-size: 200px; color: white">EUROPE</h1>
+              
+                  <span><li style="color:white"><a style="color:#503D3F;" href="#france">France</a></li></span>
+                  <span><li style="color:white"><a style="color:#503D3F;" href="#england">England</a></li style="color:white"></span>
+                  <span><li style="color:white"><a style="color:#503D3F;" href="#italy">Italy </a></li></span>
+                  <span><li style="color:white"><a style="color:#503D3F;" href="#germany">Germany</a></li></span>
+                  <span><li style="color:white"><a style="color:#503D3F;" href="#greece">Greece</a></li></span>
+
+        </div>
+
+<!-- FRANCE -->
+
+           <div id="france" class="container-fluid">  
+              <div class="country" id="franceCSS">
+                <div class="circle">
+                  <div class="names">
+
+                    <h1>France</h1>
+
+                    <span  onclick="franceInfoClick()" >info </span>
+                    <span>|</span>
+                    <span onclick="franceCommentClick()"> comments</span>
+
+                  </div>
+                </div>
+              </div>
+
+<<<<<<< HEAD
+              <div class="right">
+=======
+              <div class="right" id="infoID">
+>>>>>>> c644bffe9d70af2c77b4d747b6e4b069fd555aa4
+                <div id="franceInfo">
+                  <h1 style="color: white;  text-align: center">Information</h1> 
+
+                  <h3>Business</h3>
+                    <ul>
+                      <li>Foreign women are generally accepted in business, though they may be flirted with on occasion.</li>
+                      <li>There has been an increase of French women in management positions in retail, service, law, finance and human resources, especially in major cities.</li>
+                      <li>Business women are allowed to  invite  Frenchmen to lunch or dinner. To pay the bill is not seen as a insult to frenchmen and upon arrival men initiate handshakes with women.</li>
+                      <li>Businesswomen should wear conservative suits, dresses, pant suits, etc.</li>
+                    </ul>
+                  
+                  <h3>Greetings</h3>
+                    <ul>
+                      <li>The French address all adult women, married or single, over 18 years of age with the term “Madame.”(except for waitresses, addressed as Mademoiselle.)</li>
+                    </ul>
+
+                  <h3>Social Conditions</h3>
+                    <ul>
+                      <li>Because the French hold their privacy at a highly, Dtry to avoid asking personal questions about age, salary, occupation, children or family unless you are close.</li>
+                    </ul>
+
+                  <h3>Attire</h3>
+                    <ul>
+                      <li>Because the French are considered leaders in fashion, dress is often times conservative and understated.</li>
+                      <li>Casual attire is however acceptable in cities, as long as you are clean and well-dressed at all times.</li>
+                    </ul>
+
+                </div>
+              
+                <div id="franceComment" class="commentSection"> 
+
+                  <h1 style="color: white;  text-align: center">Comments</h1>
+<<<<<<< HEAD
+                       <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/europeStuff/franceComment.html" data-width="50%" data-numposts="5" data-colorscheme='light'></div>
+=======
+                      <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/europeStuff/franceComment.html" data-width="50%" data-numposts="5" data-colorscheme='light'></div>
+
+>>>>>>> c644bffe9d70af2c77b4d747b6e4b069fd555aa4
+                  <div  id="entry">
+                    
+                  </div>
+                </div>
+              </div>
+          </div>
+
+<!-- 
+ENGLAND -->
+
+           <div id="england" class="container-fluid">  
+              <div class="country" id="englandCSS">
+                <div class="circle">
+                  <div class="names">
+
+                    <h1>England</h1>
+
+                    <span  onclick="englandInfoClick()" >info </span>
+                    <span>|</span>
+<<<<<<< HEAD
+                    <span onclick="englandCommentClick()"> comments</span>
+=======
+                    <span onclick="englandommentClick()"> comments</span>
+>>>>>>> c644bffe9d70af2c77b4d747b6e4b069fd555aa4
+
+                  </div>
+                </div>
+              </div>
+
+<<<<<<< HEAD
+              <div class="right">
+=======
+              <div class="right" id="infoID">
+>>>>>>> c644bffe9d70af2c77b4d747b6e4b069fd555aa4
+                <div id="englandInfo">
+                  <h1 style="color: white;  text-align: center">Information</h1> 
+                  <p>hi this is a fact</p>
+                </div>
+              
+                <div id="englandComment" class="commentSection"> 
+
+                  <h1 style="color: white;  text-align: center">Comments</h1>
+<<<<<<< HEAD
+                     <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/europeStuff/englandComment.html" data-width="50%" data-numposts="5" data-colorscheme='light'></div>
+=======
+                     <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/europeStuff/franceComment.html" data-width="50%" data-numposts="5" data-colorscheme='light'></div>
+>>>>>>> c644bffe9d70af2c77b4d747b6e4b069fd555aa4
+                  <div  id="entry">
+                    
+                  </div>
+                </div>
+              </div>
+          </div>
+
+<!-- ITALY -->
+
+      <div id="italy" class="container-fluid">  
+              <div class="country" id="italyCSS">
+                <div class="circle">
+                  <div class="names">
+
+                    <h1 >Italy</h1>
+
+                    <span  onclick="italyInfoClick()" >info </span>
+                    <span>|</span>
+                    <span onclick="italyCommentClick()"> comments</span>
+
+                  </div>
+                </div>
+              </div>
+
+<<<<<<< HEAD
+              <div class="right">
+=======
+              <div class="right" id="infoID">
+>>>>>>> c644bffe9d70af2c77b4d747b6e4b069fd555aa4
+                <div id="italyInfo">
+                  <h1 style="color: white;  text-align: center">Information</h1> 
+                  <p>hi this is a fact</p>
+                </div>
+              
+                <div id="italyComment" class="commentSection"> 
+
+                  <h1 style="color: white;  text-align: center">Comments</h1>
+<<<<<<< HEAD
+                    <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/europeStuff/italyComment.html" data-width="50%" data-numposts="5" data-colorscheme='light'></div>
+=======
+                      <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/europeStuff/franceComment.html" data-width="50%" data-numposts="5" data-colorscheme='light'></div>
+>>>>>>> c644bffe9d70af2c77b4d747b6e4b069fd555aa4
+                  <div  id="entry">
+                    
+                  </div>
+                </div>
+              </div>
+          </div>
+
+<!-- GERMANY-->
+
+      <div id="germany" class="container-fluid">  
+              <div class="country" id="germanyCSS">
+                <div class="circle">
+                  <div class="names">
+
+                    <h1>Germany</h1>
+
+                    <span  onclick="germanyInfoClick()" >info </span>
+                    <span>|</span>
+                    <span onclick="germanyCommentClick()"> comments</span>
+
+                  </div>
+                </div>
+              </div>
+
+<<<<<<< HEAD
+              <div class="right">
+=======
+              <div class="right" id="infoID">
+>>>>>>> c644bffe9d70af2c77b4d747b6e4b069fd555aa4
+                <div id="germanyInfo">
+                  <h1 style="color: white;  text-align: center">Information</h1> 
+                  
+                  <h3>Business</h3>
+                    <ul>
+                      <li>Punctuality is extremely important to Germans, thus tardiness is sometimes seen as rude unless it is called ahead.</li>
+                      <li>There is a common rigid vertical hierarchy where those in lower positions rarely contradict or criticize the boss publicly.</li>
+                      <li>Within business settings, women typically wear dresses, suits, pantsuits, skirts and blouses.</li>
+                      <li>Inviting  a German man to a business dinner and paying the bill is acceptable.</li>
+                    </ul>
+
+                  <h3>Greetings</h3>
+                    <ul>
+                      <li>It is considered rude to shake one’s hand with your other hand in a pocket.</li>
+                      <li>Introductions commonly include your last name only. The first name basis typically comes once there is a relationship established.</li>
+                      <li>Germans hold titles highly thus try not to use titles incorrectly or fail to use them.</li>
+                    </ul>
+
+                  <h3>Social Conditions</h3>
+                    <ul>
+                      <li>Germans are typically more punctual and formal than most countries.</li>
+                      <li>It is common for men or younger people to always walk to the left of a woman.</li>
+                    </ul>
+
+                  <h3>Attire</h3>
+                    <ul>
+                      <li>It is frowned upon to dress sloppily or with no effort.</li>
+                      <li>It is important to be well and appropriately dressed.</li>
+                    </ul>
+                </div>
+              
+                <div id="germanyComment" class="commentSection"> 
+
+                  <h1 style="color: white;  text-align: center">Comments</h1>
+<<<<<<< HEAD
+                     <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/europeStuff/germanyComment.html" data-width="50%" data-numposts="5" data-colorscheme='light'></div>
+=======
+                      <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/europeStuff/franceComment.html" data-width="50%" data-numposts="5" data-colorscheme='light'></div>
+>>>>>>> c644bffe9d70af2c77b4d747b6e4b069fd555aa4
+                  <div  id="entry">
+                    
+                  </div>
+                </div>
+              </div>
+          </div>
+
+<!-- GREECE-->
+
+           <div id="greece" class="container-fluid">  
+              <div class="country" id="greeceCSS">
+                <div class="circle">
+                  <div class="names">
+
+                    <h1>Greece</h1>
+
+                    <span  onclick="greeceInfoClick()" >info </span>
+                    <span>|</span>
+                    <span onclick="greeceCommentClick()"> comments</span>
+
+                  </div>
+                </div>
+              </div>
+
+<<<<<<< HEAD
+              <div class="right">
+=======
+              <div class="right" id="infoID">
+>>>>>>> c644bffe9d70af2c77b4d747b6e4b069fd555aa4
+                <div id="greeceInfo">
+                  <h1 style="color: white;  text-align: center">Information</h1> 
+                  <p>hi this is a fact</p>
+                </div>
+              
+                <div id="greeceComment" class="commentSection"> 
+
+                  <h1 style="color: white;  text-align: center">Comments</h1>
+<<<<<<< HEAD
+                     <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/europeStuff/greecesComment.html" data-width="50%" data-numposts="5" data-colorscheme='light'></div>
+=======
+                      <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/europeStuff/franceComment.html" data-width="50%" data-numposts="5" data-colorscheme='light'></div>
+>>>>>>> c644bffe9d70af2c77b4d747b6e4b069fd555aa4
+                  <div  id="entry">
+                    
+                  </div>
+                </div>
+              </div>
+          </div>
+
+              
+
+  <script src="wordlyAsia.js"></script>
+ <!--  <script src="todocopy3.js"></script>
+  <script src="db2.js"></script>
+  <script src="database1.js"></script> -->
+  
+
+</body>
+</html>
