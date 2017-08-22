@@ -239,3 +239,10 @@
     padding-left: 10%;
     padding-right: 10%;
   }
+
+  .floatDiv1{
+    float: left;
+    font-color: lightgrey;
+    text-decoration:  none;
+
+  }
