@@ -30,25 +30,26 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="http://gwc-worldly.herokuapp.com/index.html"><img src="images/logoReal.png" width="125px" height="125px"></a>
+      <a class="navbar-brand" href="./index.html"><img src="images/logoReal.png" width="125px" height="125px"></a>
     </div>
     <div>
       <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav navbar-right" text-align= "right"">
-          <li><a href="#top">Back to Top </a></li>
-          <!-- <li><a href="#china">China</a></li> -->
-          <!-- <li><a href="#thailand">Thailand</a></li> -->
-          <!-- <li><a href="#japan">Japan </a></li>
-          <li><a href="#india">India</a></li> -->
-          <!-- <li><a href="#sKorea">South Korea</a></li> -->
-          <!-- <li><a href="#hk">Hong Kong </a></li> -->
-          <!--<li><a href="#indonesia">Indonesia</a></li> -->
-          <!-- <li><a href="#vietnam">Vietnam</a></li>
-          <li><a href="#malaysia">Malasia</a></li>
-          <li><a href="#Taiwan">Taiwan</a></li>
-          <li><a href="#singapore">Singapore</a></li> -->
+        <ul class="nav navbar-nav">
+          <li><a href="#top" style="color: lightgrey;">Back to Top </a></li></ul>
+        
+       <ul class="floatDiv1 nav navbar-nav"><li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color: lightgrey;">Regions <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="./northAmerica.html">North America</a></li>
+              <li><a href="./southAmerica.html">South America</a></li>
+              <li><a href="./europeStuff.html">Europe</a></li>
+              <li><a href="./africa.html">Africa</a></li>
+              <li><a href="./index2.html">Asia</a></li>
+              <li><a href="./southPacific.html">South Pacific</a></li>
+              <li><a href="./middleEast.html">Middle East</a></li>
+            </ul></li></ul>
+              
 
-          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Countries <span class="caret"></span></a>
+         <ul class="floatDiv1 nav navbar-nav"> <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color: lightgrey;">Countries <span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li><a href="#china">China</a></li>
               <li><a href="#hk">Hong Kong</a></li>
@@ -61,6 +62,10 @@
               <li><a href="#Taiwan">Taiwan</a></li>
               <li><a href="#singapore">Singapore</a></li>
               <li><a href="#thailand">Thailand</a></li>
+
+              </ul>
+              
+             </li>
             </ul>
           </li>
         </ul>
@@ -99,9 +104,9 @@
 
                     <h1>China</h1>
 
-                    <span  onclick="infoToggleOn(chinaComment, chinaInfo)" >info </span>
+                    <span  onclick="chinaInfoClick()" >info </span>
                     <span>|</span>
-                    <span onclick="commentToggleOn(chinaComment, chinaInfo)"> comments</span>
+                    <span onclick="chinaCommentClick()"> comments</span>
 
                   </div>
                 </div>
@@ -157,9 +162,9 @@ THAILAND -->
 
                     <h1>Thailand</h1>
 
-                    <span  onclick="infoToggleOn(thailandComment, thailandInfo)" >info </span>
+                    <span  onclick="thailandInfoClick()" >info </span>
                     <span>|</span>
-                    <span onclick="commentToggleOn(thailandComment, thailandInfo)"> comments</span>
+                    <span onclick="thailandCommentClick()"> comments</span>
 
                   </div>
                 </div>
@@ -215,9 +220,9 @@ THAILAND -->
 
                     <h1 >Japan</h1>
 
-                    <span  onclick="infoToggleOn(japanComment, japanInfo)" >info </span>
+                    <span  onclick="japanInfoClick()" >info </span>
                     <span>|</span>
-                    <span onclick="commentToggleOn(japanComment, japanInfo)"> comments</span>
+                    <span onclick="japanCommentClick()"> comments</span>
 
                   </div>
                 </div>
@@ -274,9 +279,9 @@ THAILAND -->
 
                     <h1>India</h1>
 
-                    <span  onclick="infoToggleOn(indiaComment, indiaInfo)" >info </span>
+                    <span  onclick="indiaInfoClick()" >info </span>
                     <span>|</span>
-                    <span onclick="commentToggleOn(indiaComment, indiaInfo)"> comments</span>
+                    <span onclick="indiaCommentClick()"> comments</span>
 
                   </div>
                 </div>
@@ -313,7 +318,8 @@ THAILAND -->
                 <div id="indiaComment" class="commentSection"> 
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
-                   <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/index2/indiaComment.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div> 
+                   <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/index2/indiaComment.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
+                  <div  id="entry"> 
 
                   <div  id="entry">
                     
@@ -332,9 +338,9 @@ THAILAND -->
 
                     <h1>South Korea</h1>
 
-                    <span  onclick="infoToggleOn(sKoreaComment, sKoreaInfo)" >info </span>
+                    <span  onclick="sKoreaInfoClick()" >info </span>
                     <span>|</span>
-                    <span onclick="commentToggleOn(sKoreaComment, sKoreaInfo)"> comments</span>
+                    <span onclick="sKoreaCommentClick()"> comments</span>
 
                   </div>
                 </div>
@@ -373,6 +379,7 @@ THAILAND -->
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
                    <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/index2/sKoreaComment.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
+                  <div  id="entry"> 
 
                   <div  id="entry">
                   </div>
@@ -390,9 +397,9 @@ THAILAND -->
 
                     <h1>Hong Kong</h1>
 
-                    <span  onclick="infoToggleOn(hkComment, hkInfo)" >info </span>
+                    <span  onclick="hkClick()" >info </span>
                     <span>|</span>
-                    <span onclick="commentToggleOn(hkComment, hkInfo)"> comments</span>
+                    <span onclick="hkCommentClick()"> comments</span>
 
                   </div>
                 </div>
@@ -433,6 +440,7 @@ THAILAND -->
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
                    <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/index2/hkComment.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
+                  <div  id="entry"> 
 
                   <div  id="entry">
                   </div>
@@ -450,9 +458,9 @@ THAILAND -->
 
                     <h1>Indonesia</h1>
 
-                    <span  onclick="infoToggleOn(indoComment, indoInfo)" >info </span>
+                    <span  onclick="indoClick()" >info </span>
                     <span>|</span>
-                    <span onclick="commentToggleOn(indoComment, indoInfo)"> comments</span>
+                    <span onclick="indoCommentClick()"> comments</span>
 
                   </div>
                 </div>
@@ -468,6 +476,7 @@ THAILAND -->
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
                    <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/index2/indoComment.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
+                  <div  id="entry"> 
 
                   <div  id="entry">
                   </div>
@@ -485,9 +494,9 @@ THAILAND -->
 
                     <h1>Vietnam</h1>
 
-                    <span  onclick="infoToggleOn(vietnamComment, vietnamInfo)" >info </span>
+                    <span  onclick="vietnamClick()" >info </span>
                     <span>|</span>
-                    <span onclick="commentToggleOn(vietnamComment, vietnamInfo)"> comments</span>
+                    <span onclick="vietnamCommentClick()"> comments</span>
 
                   </div>
                 </div>
@@ -503,6 +512,7 @@ THAILAND -->
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
                    <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/index2/vietnamComment.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
+                  <div  id="entry"> 
 
                   <div  id="entry">
                   </div>
@@ -520,9 +530,9 @@ THAILAND -->
 
                     <h1>Malaysia</h1>
 
-                    <span  onclick="infoToggleOn(malaysiaComment, malaysiaInfo)" >info </span>
+                    <span  onclick="malaysiaClick()" >info </span>
                     <span>|</span>
-                    <span onclick="commentToggleOn(malaysiaComment, malaysiaInfo)"> comments</span>
+                    <span onclick="malaysiaCommentClick()"> comments</span>
 
                   </div>
                 </div>
@@ -538,6 +548,7 @@ THAILAND -->
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
                    <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/index2/malaysiaComment.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
+                  <div  id="entry"> 
 
                   <div  id="entry">
                   </div>
@@ -555,9 +566,9 @@ THAILAND -->
 
                     <h1>Singapore</h1>
 
-                    <span  onclick="infoToggleOn(singaporeComment, singaporeInfo)" >info </span>
+                    <span  onclick="singClick()" >info </span>
                     <span>|</span>
-                    <span onclick="commentToggleOn(singaporeComment, singaporeInfo)"> comments</span>
+                    <span onclick="singCommentClick()"> comments</span>
 
                   </div>
                 </div>
@@ -573,6 +584,7 @@ THAILAND -->
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
                    <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/index2/singComment.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
+                  <div  id="entry"> 
 
                   <div  id="entry">
                   </div>
@@ -591,9 +603,9 @@ THAILAND -->
 
                     <h1>Taiwan</h1>
 
-                    <span  onclick="infoToggleOn(taiwanComment, taiwanInfo)" >info </span>
+                    <span  onclick="taiwanClick()" >info </span>
                     <span>|</span>
-                    <span onclick="commentToggleOn(taiwanComment, taiwanInfo)"> comments</span>
+                    <span onclick="taiwanCommentClick()"> comments</span>
 
                   </div>
                 </div>
@@ -609,6 +621,7 @@ THAILAND -->
 
                   <h1 style="color: white;  text-align: center">Comments</h1>
                    <div style="text-align: center" class="fb-comments" data-href="http://gwc-worldly.herokuapp.com/index2/taiwanComment.html" data-width="500px" data-numposts="5" data-colorscheme='light'></div>
+                  <div  id="entry"> 
 
                   <div  id="entry">
                   </div>
