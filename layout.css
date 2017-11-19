@@ -32,139 +32,139 @@
    #franceCSS{
     background-image: url("./images/france2.jpg"); 
   }
-  #franceComments{}
+  #franceComments{ font-weight: bold; text-decoration underline;}
    #englandCSS{
     background-image: url("./images/england2.jpg"); 
   }
-  #englandComments{}
+  #englandComments{ font-weight: bold; text-decoration underline;}
    #italyCSS{
     background-image: url("./images/italy2.jpg"); 
   }
-  #italyComments{}
+  #italyComments{ font-weight: bold; text-decoration underline;}
    #germanyCSS{
     background-image: url("./images/germany.jpg"); 
   }
-  #germanyComments{}
+  #germanyComments{ font-weight: bold; text-decoration underline;}
    #greeceCSS{
     background-image: url("./images/greece1.jpg"); 
   }
-  #greeceComments{}
+  #greeceComments{ font-weight: bold; text-decoration underline;}
   #usaCSS{
     background-image: url("./images/usa.jpg"); 
   }
-  #usaComments{}
+  #usaComments{ font-weight: bold; text-decoration underline;}
   #canadaCSS{
     background-image: url("./images/canada.jpg"); 
   }
-  #canadaComments{}
+  #canadaComments{ font-weight: bold; text-decoration underline;}
   #mexicoCSS{
     background-image: url("./images/mexico.jpg"); 
   }
-  #mexicoComments{}
+  #mexicoComments{ font-weight: bold; text-decoration underline;}
   #peruCSS{
     background-image: url("./images/peru.jpg"); 
   }
-  #peruComments{}
+  #peruComments{ font-weight: bold; text-decoration underline;}
    #brazilCSS{
     background-image: url("./images/brazil.jpg"); 
   }
-  #brazilComments{}
+  #brazilComments{ font-weight: bold; text-decoration underline;}
    #chileCSS{
     background-image: url("./images/chile.jpg"); 
   }
-  #chileComments{}
+  #chileComments{ font-weight: bold; text-decoration underline;}
   #crCSS{
     background-image: url("./images/cr.jpg"); 
   }
-  #crComments{}
+  #crComments{ font-weight: bold; text-decoration underline;}
    #argentinaCSS{
     background-image: url("./images/argentina.jpg"); 
   }
-  #argentinaComments{}
+  #argentinaComments{ font-weight: bold; text-decoration underline;}
    #israelCSS{
     background-image: url("./images/israel.jpg"); 
   }
-  #israelComments{}
+  #israelComments{ font-weight: bold; text-decoration underline;}
    #egyptCSS{
     background-image: url("./images/egypt.jpg"); 
   }
-  #egyptComments{}
+  #egyptComments{ font-weight: bold; text-decoration underline;}
    #saCSS{
     background-image: url("./images/sa.jpg"); 
   }
-  #saComments{}
+  #saComments{ font-weight: bold; text-decoration underline;}
   #uaeCSS{
     background-image: url("./images/uae.jpg"); 
   }
-  #uaeComments{}
+  #uaeComments{ font-weight: bold; text-decoration underline;}
    #turkeyCSS{
     background-image: url("./images/turkey.jpg"); 
   }
-  #uaeComments{}
+  #uaeComments{ font-weight: bold; text-decoration underline;}
     #australiaCSS{
     background-image: url("./images/australia.png"); 
   }
-  #australiaComments{}
+  #australiaComments{ font-weight: bold; text-decoration underline;}
     #nzCSS{
     background-image: url("./images/nz.jpg"); 
   }
-  #nzComments{}
+  #nzComments{ font-weight: bold; text-decoration underline;}
    /* #ngCSS{
     background-image: url("./images/ng2.jpg"); 
   }
-  #ngComments{}
+  #ngComments{ font-weight: bold; text-decoration underline;}
     #tasCSS{
     background-image: url("./images/tas.jpg"); 
   }
-  #tasComments{}*/
+  #tasComments{ font-weight: bold; text-decoration underline;}*/
    #fijiCSS{
     background-image: url("./images/fiji.jpg"); 
   }
-  #figiComments{}
+  #figiComments{ font-weight: bold; text-decoration underline;}
    #moroccoCSS{
     background-image: url("./images/morocco.jpg"); 
   }
-  #moroccoComments{}
+  #moroccoComments{ font-weight: bold; text-decoration underline;}
    #tunisiaCSS{
     background-image: url("./images/tunisia.jpg"); 
   }
-  #tunisiaComments{}
+  #tunisiaComments{ font-weight: bold; text-decoration underline;}
    #tanzCSS{
     background-image: url("./images/tanz.jpg"); 
   }
-  #tanzComments{}
+  #tanzComments{ font-weight: bold; text-decoration underline;}
   #ghanaCSS{
     background-image: url("./images/ghana.jpg"); 
   }
-  #ghanaComments{}
+  #ghanaComments{ font-weight: bold; text-decoration underline;}
    #algeriaCSS{
     background-image: url("./images/algeria.jpg"); 
   }
-  #algeriaComments{}
+  #algeriaComments{ font-weight: bold; text-decoration underline;}
   #hkCSS{
     background-image: url("./images/hongkong.jpg"); 
   }
-  #hkComments{}
+  #hkComments{ font-weight: bold; text-decoration underline;}
   /*#indoCSS{
     background-image: url("./images/indo.jpg"); 
   }
-  #indoComments{}
+  #indoComments{ font-weight: bold; text-decoration underline;}
   #vietnamCSS{
     background-image: url("./images/vietnam.jpg"); 
   }
-  #vietnamComments{}
+  #vietnamComments{ font-weight: bold; text-decoration underline;}
   #malaysiaCSS{
     background-image: url("./images/malaysia.jpg"); 
   }
-  #malaysiaComments{}
+  #malaysiaComments{ font-weight: bold; text-decoration underline;}
   #taiwanCSS{
     background-image: url("./images/taiwan.jpg"); 
   }
-  #taiwanComments{}
+  #taiwanComments{ font-weight: bold; text-decoration underline;}
   #singCSS{
     background-image: url("./images/sing2.jpg"); 
   }
-  #singComments{}
+  #singComments{ font-weight: bold; text-decoration underline;}
 */
 
   .circle {
