@@ -109,14 +109,14 @@
     background-image: url("./images/nz.jpg"); 
   }
   #nzComments{}
-    #ngCSS{
+   /* #ngCSS{
     background-image: url("./images/ng2.jpg"); 
   }
   #ngComments{}
     #tasCSS{
     background-image: url("./images/tas.jpg"); 
   }
-  #tasComments{}
+  #tasComments{}*/
    #fijiCSS{
     background-image: url("./images/fiji.jpg"); 
   }
@@ -481,7 +481,7 @@
     color: #fff; 
     background-color: lightgrey;
   }
-   #ng{
+/*   #ng{
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
               font-weight: 100;
     padding-top:50px;
@@ -496,7 +496,7 @@
     height:650px;
     color: #fff; 
     background-color: lightgrey;
-  }
+  }*/
    #fiji{
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
               font-weight: 100;
