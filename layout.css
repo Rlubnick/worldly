@@ -145,7 +145,7 @@
     background-image: url("./images/hongkong.jpg"); 
   }
   #hkComments{}
-  #indoCSS{
+  /*#indoCSS{
     background-image: url("./images/indo.jpg"); 
   }
   #indoComments{}
@@ -165,7 +165,7 @@
     background-image: url("./images/sing2.jpg"); 
   }
   #singComments{}
-
+*/
 
   .circle {
     text-align:center; 
@@ -506,7 +506,7 @@
     background-color: lightgrey;
   }
   
-  #taiwan{
+ /* #taiwan{
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
             font-weight: 100;
     padding-top:50px;
@@ -551,3 +551,4 @@
     padding-right: 2%;
   }
 
+*/
